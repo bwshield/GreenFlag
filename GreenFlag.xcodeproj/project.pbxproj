@@ -1,0 +1,1161 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD1092A721EC1301001613F5 /* XMLCheckForUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1092A621EC1301001613F5 /* XMLCheckForUpdate.swift */; };
+		CD2FBD2021EFE241006E37A7 /* SeriesDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2FBD1F21EFE241006E37A7 /* SeriesDetailTableViewController.swift */; };
+		CD2FBD2421F01BF9006E37A7 /* VenueDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2FBD2321F01BF9006E37A7 /* VenueDetailViewController.swift */; };
+		CD2FBD2621F024BD006E37A7 /* EventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2FBD2521F024BD006E37A7 /* EventDetailViewController.swift */; };
+		CD30821821FA1B1900DF99BC /* Events+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30821621FA1B1900DF99BC /* Events+CoreDataClass.swift */; };
+		CD30821921FA1B1900DF99BC /* Events+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30821721FA1B1900DF99BC /* Events+CoreDataProperties.swift */; };
+		CD30821C21FAB69100DF99BC /* Venues+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30821A21FAB69100DF99BC /* Venues+CoreDataClass.swift */; };
+		CD30821D21FAB69100DF99BC /* Venues+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30821B21FAB69100DF99BC /* Venues+CoreDataProperties.swift */; };
+		CD30822121FE39E700DF99BC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30822021FE39E700DF99BC /* MainViewController.swift */; };
+		CD30822E21FF1ED600DF99BC /* SeriesListTableViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30822D21FF1ED600DF99BC /* SeriesListTableViewRow.swift */; };
+		CD30823021FF200800DF99BC /* SeriesListInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30822F21FF200800DF99BC /* SeriesListInterfaceController.swift */; };
+		CD30823121FF390700DF99BC /* Events+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30821621FA1B1900DF99BC /* Events+CoreDataClass.swift */; };
+		CD30823221FF390700DF99BC /* Events+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30821721FA1B1900DF99BC /* Events+CoreDataProperties.swift */; };
+		CD30823321FF390700DF99BC /* Venues+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30821A21FAB69100DF99BC /* Venues+CoreDataClass.swift */; };
+		CD30823421FF390700DF99BC /* Venues+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30821B21FAB69100DF99BC /* Venues+CoreDataProperties.swift */; };
+		CD30823521FF392B00DF99BC /* GreenFlag3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD88B74E21EBCCE3003C188B /* GreenFlag3.xcdatamodeld */; };
+		CD30823621FF3B0200DF99BC /* XMLCheckForUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1092A621EC1301001613F5 /* XMLCheckForUpdate.swift */; };
+		CD30823821FF461A00DF99BC /* SeriesEventListInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30823721FF461A00DF99BC /* SeriesEventListInterfaceController.swift */; };
+		CD30823C21FF54F800DF99BC /* EventDetailInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30823B21FF54F800DF99BC /* EventDetailInterfaceController.swift */; };
+		CD30823E21FF565600DF99BC /* EventDetailTableRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30823D21FF565600DF99BC /* EventDetailTableRow.swift */; };
+		CD30824621FF688C00DF99BC /* SeriesInfoHeaderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30824521FF688C00DF99BC /* SeriesInfoHeaderRow.swift */; };
+		CD30824821FF68C500DF99BC /* SeriesEventHeaderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30824721FF68C500DF99BC /* SeriesEventHeaderRow.swift */; };
+		CD30824A21FFBC3400DF99BC /* SeriesInfoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30824921FFBC3400DF99BC /* SeriesInfoRow.swift */; };
+		CD30824C21FFD6E100DF99BC /* VenuesHeaderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30824B21FFD6E100DF99BC /* VenuesHeaderRow.swift */; };
+		CD30824E21FFD73300DF99BC /* VenuesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30824D21FFD73300DF99BC /* VenuesRow.swift */; };
+		CD30825021FFD76F00DF99BC /* EventsHeaderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30824F21FFD76F00DF99BC /* EventsHeaderRow.swift */; };
+		CD30825221FFD7A300DF99BC /* EventsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30825121FFD7A300DF99BC /* EventsRow.swift */; };
+		CD30825421FFD91700DF99BC /* VenueDetailInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30825321FFD91700DF99BC /* VenueDetailInterfaceController.swift */; };
+		CD30825621FFDED500DF99BC /* VenueInfoHeaderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30825521FFDED500DF99BC /* VenueInfoHeaderRow.swift */; };
+		CD30825821FFDF2400DF99BC /* VenueInfoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30825721FFDF2400DF99BC /* VenueInfoRow.swift */; };
+		CD30825A21FFDF7000DF99BC /* VenueEventHeaderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30825921FFDF7000DF99BC /* VenueEventHeaderRow.swift */; };
+		CD30825C21FFDFA800DF99BC /* VenueEventRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30825B21FFDFA800DF99BC /* VenueEventRow.swift */; };
+		CD30825E21FFDFF100DF99BC /* EventInfoHeaderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30825D21FFDFF100DF99BC /* EventInfoHeaderRow.swift */; };
+		CD30826021FFE06A00DF99BC /* EventInfoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30825F21FFE06A00DF99BC /* EventInfoRow.swift */; };
+		CD30826221FFE0A300DF99BC /* EventVenueHeaderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30826121FFE0A300DF99BC /* EventVenueHeaderRow.swift */; };
+		CD30826421FFE0D400DF99BC /* EventVenueInfoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30826321FFE0D400DF99BC /* EventVenueInfoRow.swift */; };
+		CD30826621FFE0FE00DF99BC /* OtherEventsHeaderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30826521FFE0FE00DF99BC /* OtherEventsHeaderRow.swift */; };
+		CD30826821FFE12700DF99BC /* OtherEventRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30826721FFE12700DF99BC /* OtherEventRow.swift */; };
+		CD30826A21FFE1EF00DF99BC /* VenueListInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30826921FFE1EF00DF99BC /* VenueListInterfaceController.swift */; };
+		CD30826C21FFE4BF00DF99BC /* EventListInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30826B21FFE4BF00DF99BC /* EventListInterfaceController.swift */; };
+		CD30826E21FFEA5800DF99BC /* SeriesEventsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30826D21FFEA5800DF99BC /* SeriesEventsRow.swift */; };
+		CD30827022009A8500DF99BC /* OtherEventExcludedRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30826F22009A8500DF99BC /* OtherEventExcludedRow.swift */; };
+		CD3082722200A03F00DF99BC /* VenueMapRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3082712200A03F00DF99BC /* VenueMapRow.swift */; };
+		CD3082742200A09500DF99BC /* EventDetailMapRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3082732200A09500DF99BC /* EventDetailMapRow.swift */; };
+		CD3082762200A0D100DF99BC /* VenueMapInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3082752200A0D100DF99BC /* VenueMapInterfaceController.swift */; };
+		CD5A81A02200F3BA00943C52 /* SeriesListHeaderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5A819F2200F3BA00943C52 /* SeriesListHeaderRow.swift */; };
+		CD5A81A22200F3F400943C52 /* SeriesListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5A81A12200F3F400943C52 /* SeriesListRow.swift */; };
+		CD79C344220206E900D9C5D3 /* CoreDataBastard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD79C343220206E900D9C5D3 /* CoreDataBastard.swift */; };
+		CD79C345220206E900D9C5D3 /* CoreDataBastard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD79C343220206E900D9C5D3 /* CoreDataBastard.swift */; };
+		CD79C347220230BA00D9C5D3 /* greenflag.xml in Resources */ = {isa = PBXBuildFile; fileRef = CD79C346220230BA00D9C5D3 /* greenflag.xml */; };
+		CD79C348220230BA00D9C5D3 /* greenflag.xml in Resources */ = {isa = PBXBuildFile; fileRef = CD79C346220230BA00D9C5D3 /* greenflag.xml */; };
+		CD88B6C521EBAF47003C188B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD88B6C421EBAF47003C188B /* AppDelegate.swift */; };
+		CD88B6CC21EBAF47003C188B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD88B6CA21EBAF47003C188B /* Main.storyboard */; };
+		CD88B6CE21EBAF48003C188B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD88B6CD21EBAF48003C188B /* Assets.xcassets */; };
+		CD88B6D121EBAF48003C188B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD88B6CF21EBAF48003C188B /* LaunchScreen.storyboard */; };
+		CD88B6DC21EBAF49003C188B /* GreenFlagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD88B6DB21EBAF49003C188B /* GreenFlagTests.swift */; };
+		CD88B6E721EBAF49003C188B /* GreenFlagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD88B6E621EBAF49003C188B /* GreenFlagUITests.swift */; };
+		CD88B74221EBBA9B003C188B /* SeriesTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD88B74121EBBA9B003C188B /* SeriesTabViewController.swift */; };
+		CD88B74421EBBABF003C188B /* VenuesTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD88B74321EBBABF003C188B /* VenuesTabViewController.swift */; };
+		CD88B74621EBBAE1003C188B /* EventsTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD88B74521EBBAE1003C188B /* EventsTabViewController.swift */; };
+		CD88B75021EBCCE3003C188B /* GreenFlag3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD88B74E21EBCCE3003C188B /* GreenFlag3.xcdatamodeld */; };
+		CD9C5A57220959AA0089AD05 /* EventSortInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9C5A55220957C30089AD05 /* EventSortInterfaceController.swift */; };
+		CD9C5A592209629D0089AD05 /* VenueSortInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9C5A582209629D0089AD05 /* VenueSortInterfaceController.swift */; };
+		CDF006092204A4F900DC713F /* CurrentEventRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF006082204A4F900DC713F /* CurrentEventRow.swift */; };
+		CDF0060B2208AC1B00DC713F /* OtherEventTopHeaderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF0060A2208AC1B00DC713F /* OtherEventTopHeaderRow.swift */; };
+		CDF0060D2208B0E400DC713F /* VenueEventTopHeaderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF0060C2208B0E400DC713F /* VenueEventTopHeaderRow.swift */; };
+		CDFD37E921F7F72600224D35 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDFD37E721F7F72600224D35 /* Interface.storyboard */; };
+		CDFD37EB21F7F72800224D35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDFD37EA21F7F72800224D35 /* Assets.xcassets */; };
+		CDFD37F221F7F72800224D35 /* GreenFlagWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CDFD37F121F7F72800224D35 /* GreenFlagWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CDFD37F721F7F72800224D35 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFD37F621F7F72800224D35 /* InterfaceController.swift */; };
+		CDFD37F921F7F72800224D35 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFD37F821F7F72800224D35 /* ExtensionDelegate.swift */; };
+		CDFD37FB21F7F72800224D35 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFD37FA21F7F72800224D35 /* NotificationController.swift */; };
+		CDFD37FD21F7F72800224D35 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFD37FC21F7F72800224D35 /* ComplicationController.swift */; };
+		CDFD37FF21F7F72900224D35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDFD37FE21F7F72900224D35 /* Assets.xcassets */; };
+		CDFD380421F7F72900224D35 /* GreenFlagWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CDFD37E521F7F72600224D35 /* GreenFlagWatch.app */; };
+		CDFD380E21F96D8D00224D35 /* VenueMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFD380D21F96D8D00224D35 /* VenueMapViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD88B6D821EBAF49003C188B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD88B6B921EBAF47003C188B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD88B6C021EBAF47003C188B;
+			remoteInfo = GreenFlag;
+		};
+		CD88B6E321EBAF49003C188B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD88B6B921EBAF47003C188B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD88B6C021EBAF47003C188B;
+			remoteInfo = GreenFlag;
+		};
+		CDFD37F321F7F72800224D35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD88B6B921EBAF47003C188B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDFD37F021F7F72800224D35;
+			remoteInfo = "GreenFlagWatch Extension";
+		};
+		CDFD380221F7F72900224D35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD88B6B921EBAF47003C188B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDFD37E421F7F72600224D35;
+			remoteInfo = GreenFlagWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CDFD380821F7F72900224D35 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CDFD37F221F7F72800224D35 /* GreenFlagWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDFD380C21F7F72900224D35 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				CDFD380421F7F72900224D35 /* GreenFlagWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CD1092A621EC1301001613F5 /* XMLCheckForUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLCheckForUpdate.swift; sourceTree = "<group>"; };
+		CD2FBD1F21EFE241006E37A7 /* SeriesDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesDetailTableViewController.swift; sourceTree = "<group>"; };
+		CD2FBD2321F01BF9006E37A7 /* VenueDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueDetailViewController.swift; sourceTree = "<group>"; };
+		CD2FBD2521F024BD006E37A7 /* EventDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailViewController.swift; sourceTree = "<group>"; };
+		CD30821621FA1B1900DF99BC /* Events+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Events+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CD30821721FA1B1900DF99BC /* Events+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Events+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CD30821A21FAB69100DF99BC /* Venues+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Venues+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CD30821B21FAB69100DF99BC /* Venues+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Venues+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CD30822021FE39E700DF99BC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CD30822621FF0A2600DF99BC /* GreenFlag.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GreenFlag.entitlements; sourceTree = "<group>"; };
+		CD30822721FF0A3900DF99BC /* GreenFlagWatch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GreenFlagWatch.entitlements; sourceTree = "<group>"; };
+		CD30822821FF0A4200DF99BC /* GreenFlagWatch Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "GreenFlagWatch Extension.entitlements"; sourceTree = "<group>"; };
+		CD30822D21FF1ED600DF99BC /* SeriesListTableViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesListTableViewRow.swift; sourceTree = "<group>"; };
+		CD30822F21FF200800DF99BC /* SeriesListInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesListInterfaceController.swift; sourceTree = "<group>"; };
+		CD30823721FF461A00DF99BC /* SeriesEventListInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesEventListInterfaceController.swift; sourceTree = "<group>"; };
+		CD30823B21FF54F800DF99BC /* EventDetailInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailInterfaceController.swift; sourceTree = "<group>"; };
+		CD30823D21FF565600DF99BC /* EventDetailTableRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailTableRow.swift; sourceTree = "<group>"; };
+		CD30824521FF688C00DF99BC /* SeriesInfoHeaderRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesInfoHeaderRow.swift; sourceTree = "<group>"; };
+		CD30824721FF68C500DF99BC /* SeriesEventHeaderRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesEventHeaderRow.swift; sourceTree = "<group>"; };
+		CD30824921FFBC3400DF99BC /* SeriesInfoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesInfoRow.swift; sourceTree = "<group>"; };
+		CD30824B21FFD6E100DF99BC /* VenuesHeaderRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenuesHeaderRow.swift; sourceTree = "<group>"; };
+		CD30824D21FFD73300DF99BC /* VenuesRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenuesRow.swift; sourceTree = "<group>"; };
+		CD30824F21FFD76F00DF99BC /* EventsHeaderRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsHeaderRow.swift; sourceTree = "<group>"; };
+		CD30825121FFD7A300DF99BC /* EventsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsRow.swift; sourceTree = "<group>"; };
+		CD30825321FFD91700DF99BC /* VenueDetailInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueDetailInterfaceController.swift; sourceTree = "<group>"; };
+		CD30825521FFDED500DF99BC /* VenueInfoHeaderRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueInfoHeaderRow.swift; sourceTree = "<group>"; };
+		CD30825721FFDF2400DF99BC /* VenueInfoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueInfoRow.swift; sourceTree = "<group>"; };
+		CD30825921FFDF7000DF99BC /* VenueEventHeaderRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueEventHeaderRow.swift; sourceTree = "<group>"; };
+		CD30825B21FFDFA800DF99BC /* VenueEventRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueEventRow.swift; sourceTree = "<group>"; };
+		CD30825D21FFDFF100DF99BC /* EventInfoHeaderRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventInfoHeaderRow.swift; sourceTree = "<group>"; };
+		CD30825F21FFE06A00DF99BC /* EventInfoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventInfoRow.swift; sourceTree = "<group>"; };
+		CD30826121FFE0A300DF99BC /* EventVenueHeaderRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventVenueHeaderRow.swift; sourceTree = "<group>"; };
+		CD30826321FFE0D400DF99BC /* EventVenueInfoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventVenueInfoRow.swift; sourceTree = "<group>"; };
+		CD30826521FFE0FE00DF99BC /* OtherEventsHeaderRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherEventsHeaderRow.swift; sourceTree = "<group>"; };
+		CD30826721FFE12700DF99BC /* OtherEventRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherEventRow.swift; sourceTree = "<group>"; };
+		CD30826921FFE1EF00DF99BC /* VenueListInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueListInterfaceController.swift; sourceTree = "<group>"; };
+		CD30826B21FFE4BF00DF99BC /* EventListInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListInterfaceController.swift; sourceTree = "<group>"; };
+		CD30826D21FFEA5800DF99BC /* SeriesEventsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesEventsRow.swift; sourceTree = "<group>"; };
+		CD30826F22009A8500DF99BC /* OtherEventExcludedRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherEventExcludedRow.swift; sourceTree = "<group>"; };
+		CD3082712200A03F00DF99BC /* VenueMapRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueMapRow.swift; sourceTree = "<group>"; };
+		CD3082732200A09500DF99BC /* EventDetailMapRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailMapRow.swift; sourceTree = "<group>"; };
+		CD3082752200A0D100DF99BC /* VenueMapInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueMapInterfaceController.swift; sourceTree = "<group>"; };
+		CD5A819F2200F3BA00943C52 /* SeriesListHeaderRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesListHeaderRow.swift; sourceTree = "<group>"; };
+		CD5A81A12200F3F400943C52 /* SeriesListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesListRow.swift; sourceTree = "<group>"; };
+		CD79C343220206E900D9C5D3 /* CoreDataBastard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBastard.swift; sourceTree = "<group>"; };
+		CD79C346220230BA00D9C5D3 /* greenflag.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = greenflag.xml; sourceTree = "<group>"; };
+		CD88B6C121EBAF47003C188B /* GreenFlag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenFlag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD88B6C421EBAF47003C188B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD88B6CB21EBAF47003C188B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD88B6CD21EBAF48003C188B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD88B6D021EBAF48003C188B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD88B6D221EBAF48003C188B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD88B6D721EBAF49003C188B /* GreenFlagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreenFlagTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD88B6DB21EBAF49003C188B /* GreenFlagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenFlagTests.swift; sourceTree = "<group>"; };
+		CD88B6DD21EBAF49003C188B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD88B6E221EBAF49003C188B /* GreenFlagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreenFlagUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD88B6E621EBAF49003C188B /* GreenFlagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenFlagUITests.swift; sourceTree = "<group>"; };
+		CD88B6E821EBAF49003C188B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD88B74121EBBA9B003C188B /* SeriesTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesTabViewController.swift; sourceTree = "<group>"; };
+		CD88B74321EBBABF003C188B /* VenuesTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenuesTabViewController.swift; sourceTree = "<group>"; };
+		CD88B74521EBBAE1003C188B /* EventsTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsTabViewController.swift; sourceTree = "<group>"; };
+		CD88B74F21EBCCE3003C188B /* GreenFlag3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GreenFlag3.xcdatamodel; sourceTree = "<group>"; };
+		CD9C5A55220957C30089AD05 /* EventSortInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EventSortInterfaceController.swift; path = "GreenFlagWatch Extension/EventSortInterfaceController.swift"; sourceTree = "<group>"; };
+		CD9C5A582209629D0089AD05 /* VenueSortInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VenueSortInterfaceController.swift; path = "GreenFlagWatch Extension/VenueSortInterfaceController.swift"; sourceTree = "<group>"; };
+		CDF006082204A4F900DC713F /* CurrentEventRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentEventRow.swift; sourceTree = "<group>"; };
+		CDF0060A2208AC1B00DC713F /* OtherEventTopHeaderRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherEventTopHeaderRow.swift; sourceTree = "<group>"; };
+		CDF0060C2208B0E400DC713F /* VenueEventTopHeaderRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueEventTopHeaderRow.swift; sourceTree = "<group>"; };
+		CDFD37E521F7F72600224D35 /* GreenFlagWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenFlagWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDFD37E821F7F72600224D35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		CDFD37EA21F7F72800224D35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDFD37EC21F7F72800224D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDFD37F121F7F72800224D35 /* GreenFlagWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GreenFlagWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDFD37F621F7F72800224D35 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		CDFD37F821F7F72800224D35 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		CDFD37FA21F7F72800224D35 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		CDFD37FC21F7F72800224D35 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		CDFD37FE21F7F72900224D35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDFD380021F7F72900224D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDFD380121F7F72900224D35 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		CDFD380D21F96D8D00224D35 /* VenueMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VenueMapViewController.swift; path = GreenFlag/VenueMapViewController.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD88B6BE21EBAF47003C188B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD88B6D421EBAF49003C188B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD88B6DF21EBAF49003C188B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDFD37EE21F7F72800224D35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD3082792200DB8D00DF99BC /* InterfaceClasses */ = {
+			isa = PBXGroup;
+			children = (
+				CDF0060C2208B0E400DC713F /* VenueEventTopHeaderRow.swift */,
+				CD30826D21FFEA5800DF99BC /* SeriesEventsRow.swift */,
+				CD30824721FF68C500DF99BC /* SeriesEventHeaderRow.swift */,
+				CD30824521FF688C00DF99BC /* SeriesInfoHeaderRow.swift */,
+				CD30824921FFBC3400DF99BC /* SeriesInfoRow.swift */,
+				CD30824B21FFD6E100DF99BC /* VenuesHeaderRow.swift */,
+				CD30824D21FFD73300DF99BC /* VenuesRow.swift */,
+				CD30825521FFDED500DF99BC /* VenueInfoHeaderRow.swift */,
+				CD30825721FFDF2400DF99BC /* VenueInfoRow.swift */,
+				CD30825921FFDF7000DF99BC /* VenueEventHeaderRow.swift */,
+				CD30825B21FFDFA800DF99BC /* VenueEventRow.swift */,
+				CDF006082204A4F900DC713F /* CurrentEventRow.swift */,
+				CDF0060A2208AC1B00DC713F /* OtherEventTopHeaderRow.swift */,
+				CD30825D21FFDFF100DF99BC /* EventInfoHeaderRow.swift */,
+				CD30825F21FFE06A00DF99BC /* EventInfoRow.swift */,
+				CD30826121FFE0A300DF99BC /* EventVenueHeaderRow.swift */,
+				CD30826321FFE0D400DF99BC /* EventVenueInfoRow.swift */,
+				CD30826521FFE0FE00DF99BC /* OtherEventsHeaderRow.swift */,
+				CD30826721FFE12700DF99BC /* OtherEventRow.swift */,
+				CD30824F21FFD76F00DF99BC /* EventsHeaderRow.swift */,
+				CD30825121FFD7A300DF99BC /* EventsRow.swift */,
+				CD30823D21FF565600DF99BC /* EventDetailTableRow.swift */,
+				CD30822D21FF1ED600DF99BC /* SeriesListTableViewRow.swift */,
+				CD3082712200A03F00DF99BC /* VenueMapRow.swift */,
+				CD30826F22009A8500DF99BC /* OtherEventExcludedRow.swift */,
+				CD3082732200A09500DF99BC /* EventDetailMapRow.swift */,
+				CD5A819F2200F3BA00943C52 /* SeriesListHeaderRow.swift */,
+				CD5A81A12200F3F400943C52 /* SeriesListRow.swift */,
+			);
+			path = InterfaceClasses;
+			sourceTree = "<group>";
+		};
+		CD88B6B821EBAF47003C188B = {
+			isa = PBXGroup;
+			children = (
+				CD9C5A582209629D0089AD05 /* VenueSortInterfaceController.swift */,
+				CD9C5A55220957C30089AD05 /* EventSortInterfaceController.swift */,
+				CD79C346220230BA00D9C5D3 /* greenflag.xml */,
+				CD79C343220206E900D9C5D3 /* CoreDataBastard.swift */,
+				CD88B6C321EBAF47003C188B /* GreenFlag */,
+				CD88B6DA21EBAF49003C188B /* GreenFlagTests */,
+				CD88B6E521EBAF49003C188B /* GreenFlagUITests */,
+				CDFD37E621F7F72600224D35 /* GreenFlagWatch */,
+				CDFD37F521F7F72800224D35 /* GreenFlagWatch Extension */,
+				CD88B6C221EBAF47003C188B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD88B6C221EBAF47003C188B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD88B6C121EBAF47003C188B /* GreenFlag.app */,
+				CD88B6D721EBAF49003C188B /* GreenFlagTests.xctest */,
+				CD88B6E221EBAF49003C188B /* GreenFlagUITests.xctest */,
+				CDFD37E521F7F72600224D35 /* GreenFlagWatch.app */,
+				CDFD37F121F7F72800224D35 /* GreenFlagWatch Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD88B6C321EBAF47003C188B /* GreenFlag */ = {
+			isa = PBXGroup;
+			children = (
+				CD30822621FF0A2600DF99BC /* GreenFlag.entitlements */,
+				CD88B74D21EBCCC6003C188B /* CoreData */,
+				CD88B6C421EBAF47003C188B /* AppDelegate.swift */,
+				CD30822021FE39E700DF99BC /* MainViewController.swift */,
+				CD88B74121EBBA9B003C188B /* SeriesTabViewController.swift */,
+				CD88B74321EBBABF003C188B /* VenuesTabViewController.swift */,
+				CD88B74521EBBAE1003C188B /* EventsTabViewController.swift */,
+				CD2FBD1F21EFE241006E37A7 /* SeriesDetailTableViewController.swift */,
+				CD2FBD2321F01BF9006E37A7 /* VenueDetailViewController.swift */,
+				CD2FBD2521F024BD006E37A7 /* EventDetailViewController.swift */,
+				CDFD380D21F96D8D00224D35 /* VenueMapViewController.swift */,
+				CD88B6CA21EBAF47003C188B /* Main.storyboard */,
+				CD88B6CD21EBAF48003C188B /* Assets.xcassets */,
+				CD88B6CF21EBAF48003C188B /* LaunchScreen.storyboard */,
+				CD88B6D221EBAF48003C188B /* Info.plist */,
+				CD1092A621EC1301001613F5 /* XMLCheckForUpdate.swift */,
+			);
+			path = GreenFlag;
+			sourceTree = "<group>";
+		};
+		CD88B6DA21EBAF49003C188B /* GreenFlagTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD88B6DB21EBAF49003C188B /* GreenFlagTests.swift */,
+				CD88B6DD21EBAF49003C188B /* Info.plist */,
+			);
+			path = GreenFlagTests;
+			sourceTree = "<group>";
+		};
+		CD88B6E521EBAF49003C188B /* GreenFlagUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD88B6E621EBAF49003C188B /* GreenFlagUITests.swift */,
+				CD88B6E821EBAF49003C188B /* Info.plist */,
+			);
+			path = GreenFlagUITests;
+			sourceTree = "<group>";
+		};
+		CD88B74D21EBCCC6003C188B /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				CD88B74E21EBCCE3003C188B /* GreenFlag3.xcdatamodeld */,
+				CD30821621FA1B1900DF99BC /* Events+CoreDataClass.swift */,
+				CD30821721FA1B1900DF99BC /* Events+CoreDataProperties.swift */,
+				CD30821A21FAB69100DF99BC /* Venues+CoreDataClass.swift */,
+				CD30821B21FAB69100DF99BC /* Venues+CoreDataProperties.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		CDFD37E621F7F72600224D35 /* GreenFlagWatch */ = {
+			isa = PBXGroup;
+			children = (
+				CD30822721FF0A3900DF99BC /* GreenFlagWatch.entitlements */,
+				CDFD37E721F7F72600224D35 /* Interface.storyboard */,
+				CDFD37EA21F7F72800224D35 /* Assets.xcassets */,
+				CDFD37EC21F7F72800224D35 /* Info.plist */,
+			);
+			path = GreenFlagWatch;
+			sourceTree = "<group>";
+		};
+		CDFD37F521F7F72800224D35 /* GreenFlagWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CD3082792200DB8D00DF99BC /* InterfaceClasses */,
+				CD3082752200A0D100DF99BC /* VenueMapInterfaceController.swift */,
+				CD30825321FFD91700DF99BC /* VenueDetailInterfaceController.swift */,
+				CD30826921FFE1EF00DF99BC /* VenueListInterfaceController.swift */,
+				CD30826B21FFE4BF00DF99BC /* EventListInterfaceController.swift */,
+				CD30823B21FF54F800DF99BC /* EventDetailInterfaceController.swift */,
+				CD30823721FF461A00DF99BC /* SeriesEventListInterfaceController.swift */,
+				CD30822F21FF200800DF99BC /* SeriesListInterfaceController.swift */,
+				CDFD37F621F7F72800224D35 /* InterfaceController.swift */,
+				CDFD37F821F7F72800224D35 /* ExtensionDelegate.swift */,
+				CDFD37FA21F7F72800224D35 /* NotificationController.swift */,
+				CDFD37FC21F7F72800224D35 /* ComplicationController.swift */,
+				CD30822821FF0A4200DF99BC /* GreenFlagWatch Extension.entitlements */,
+				CDFD37FE21F7F72900224D35 /* Assets.xcassets */,
+				CDFD380021F7F72900224D35 /* Info.plist */,
+				CDFD380121F7F72900224D35 /* PushNotificationPayload.apns */,
+			);
+			path = "GreenFlagWatch Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD88B6C021EBAF47003C188B /* GreenFlag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD88B6EB21EBAF49003C188B /* Build configuration list for PBXNativeTarget "GreenFlag" */;
+			buildPhases = (
+				CD88B6BD21EBAF47003C188B /* Sources */,
+				CD88B6BE21EBAF47003C188B /* Frameworks */,
+				CD88B6BF21EBAF47003C188B /* Resources */,
+				CDFD380C21F7F72900224D35 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDFD380321F7F72900224D35 /* PBXTargetDependency */,
+			);
+			name = GreenFlag;
+			productName = GreenFlag;
+			productReference = CD88B6C121EBAF47003C188B /* GreenFlag.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD88B6D621EBAF49003C188B /* GreenFlagTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD88B6EE21EBAF49003C188B /* Build configuration list for PBXNativeTarget "GreenFlagTests" */;
+			buildPhases = (
+				CD88B6D321EBAF49003C188B /* Sources */,
+				CD88B6D421EBAF49003C188B /* Frameworks */,
+				CD88B6D521EBAF49003C188B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD88B6D921EBAF49003C188B /* PBXTargetDependency */,
+			);
+			name = GreenFlagTests;
+			productName = GreenFlagTests;
+			productReference = CD88B6D721EBAF49003C188B /* GreenFlagTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD88B6E121EBAF49003C188B /* GreenFlagUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD88B6F121EBAF49003C188B /* Build configuration list for PBXNativeTarget "GreenFlagUITests" */;
+			buildPhases = (
+				CD88B6DE21EBAF49003C188B /* Sources */,
+				CD88B6DF21EBAF49003C188B /* Frameworks */,
+				CD88B6E021EBAF49003C188B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD88B6E421EBAF49003C188B /* PBXTargetDependency */,
+			);
+			name = GreenFlagUITests;
+			productName = GreenFlagUITests;
+			productReference = CD88B6E221EBAF49003C188B /* GreenFlagUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CDFD37E421F7F72600224D35 /* GreenFlagWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDFD380921F7F72900224D35 /* Build configuration list for PBXNativeTarget "GreenFlagWatch" */;
+			buildPhases = (
+				CDFD37E321F7F72600224D35 /* Resources */,
+				CDFD380821F7F72900224D35 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDFD37F421F7F72800224D35 /* PBXTargetDependency */,
+			);
+			name = GreenFlagWatch;
+			productName = GreenFlagWatch;
+			productReference = CDFD37E521F7F72600224D35 /* GreenFlagWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		CDFD37F021F7F72800224D35 /* GreenFlagWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDFD380521F7F72900224D35 /* Build configuration list for PBXNativeTarget "GreenFlagWatch Extension" */;
+			buildPhases = (
+				CDFD37ED21F7F72800224D35 /* Sources */,
+				CDFD37EE21F7F72800224D35 /* Frameworks */,
+				CDFD37EF21F7F72800224D35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GreenFlagWatch Extension";
+			productName = "GreenFlagWatch Extension";
+			productReference = CDFD37F121F7F72800224D35 /* GreenFlagWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD88B6B921EBAF47003C188B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Brian Shield";
+				TargetAttributes = {
+					CD88B6C021EBAF47003C188B = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					CD88B6D621EBAF49003C188B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CD88B6C021EBAF47003C188B;
+					};
+					CD88B6E121EBAF49003C188B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CD88B6C021EBAF47003C188B;
+					};
+					CDFD37E421F7F72600224D35 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					CDFD37F021F7F72800224D35 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.BackgroundModes.watchos.extension = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = CD88B6BC21EBAF47003C188B /* Build configuration list for PBXProject "GreenFlag" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD88B6B821EBAF47003C188B;
+			productRefGroup = CD88B6C221EBAF47003C188B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD88B6C021EBAF47003C188B /* GreenFlag */,
+				CD88B6D621EBAF49003C188B /* GreenFlagTests */,
+				CD88B6E121EBAF49003C188B /* GreenFlagUITests */,
+				CDFD37E421F7F72600224D35 /* GreenFlagWatch */,
+				CDFD37F021F7F72800224D35 /* GreenFlagWatch Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD88B6BF21EBAF47003C188B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD79C347220230BA00D9C5D3 /* greenflag.xml in Resources */,
+				CD88B6D121EBAF48003C188B /* LaunchScreen.storyboard in Resources */,
+				CD88B6CE21EBAF48003C188B /* Assets.xcassets in Resources */,
+				CD88B6CC21EBAF47003C188B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD88B6D521EBAF49003C188B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD88B6E021EBAF49003C188B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDFD37E321F7F72600224D35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFD37EB21F7F72800224D35 /* Assets.xcassets in Resources */,
+				CDFD37E921F7F72600224D35 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDFD37EF21F7F72800224D35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD79C348220230BA00D9C5D3 /* greenflag.xml in Resources */,
+				CDFD37FF21F7F72900224D35 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD88B6BD21EBAF47003C188B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD30821C21FAB69100DF99BC /* Venues+CoreDataClass.swift in Sources */,
+				CD88B6C521EBAF47003C188B /* AppDelegate.swift in Sources */,
+				CD88B74421EBBABF003C188B /* VenuesTabViewController.swift in Sources */,
+				CD30821D21FAB69100DF99BC /* Venues+CoreDataProperties.swift in Sources */,
+				CD79C344220206E900D9C5D3 /* CoreDataBastard.swift in Sources */,
+				CD30821921FA1B1900DF99BC /* Events+CoreDataProperties.swift in Sources */,
+				CD88B75021EBCCE3003C188B /* GreenFlag3.xcdatamodeld in Sources */,
+				CD30822121FE39E700DF99BC /* MainViewController.swift in Sources */,
+				CD2FBD2621F024BD006E37A7 /* EventDetailViewController.swift in Sources */,
+				CD88B74221EBBA9B003C188B /* SeriesTabViewController.swift in Sources */,
+				CD30821821FA1B1900DF99BC /* Events+CoreDataClass.swift in Sources */,
+				CD88B74621EBBAE1003C188B /* EventsTabViewController.swift in Sources */,
+				CD1092A721EC1301001613F5 /* XMLCheckForUpdate.swift in Sources */,
+				CD2FBD2021EFE241006E37A7 /* SeriesDetailTableViewController.swift in Sources */,
+				CD2FBD2421F01BF9006E37A7 /* VenueDetailViewController.swift in Sources */,
+				CDFD380E21F96D8D00224D35 /* VenueMapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD88B6D321EBAF49003C188B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD88B6DC21EBAF49003C188B /* GreenFlagTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD88B6DE21EBAF49003C188B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD88B6E721EBAF49003C188B /* GreenFlagUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDFD37ED21F7F72800224D35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9C5A57220959AA0089AD05 /* EventSortInterfaceController.swift in Sources */,
+				CD9C5A592209629D0089AD05 /* VenueSortInterfaceController.swift in Sources */,
+				CD30823621FF3B0200DF99BC /* XMLCheckForUpdate.swift in Sources */,
+				CD3082722200A03F00DF99BC /* VenueMapRow.swift in Sources */,
+				CD30826A21FFE1EF00DF99BC /* VenueListInterfaceController.swift in Sources */,
+				CD5A81A22200F3F400943C52 /* SeriesListRow.swift in Sources */,
+				CD30825221FFD7A300DF99BC /* EventsRow.swift in Sources */,
+				CD30823521FF392B00DF99BC /* GreenFlag3.xcdatamodeld in Sources */,
+				CD30823121FF390700DF99BC /* Events+CoreDataClass.swift in Sources */,
+				CD30824E21FFD73300DF99BC /* VenuesRow.swift in Sources */,
+				CD30824821FF68C500DF99BC /* SeriesEventHeaderRow.swift in Sources */,
+				CD30823221FF390700DF99BC /* Events+CoreDataProperties.swift in Sources */,
+				CD30824621FF688C00DF99BC /* SeriesInfoHeaderRow.swift in Sources */,
+				CD30823321FF390700DF99BC /* Venues+CoreDataClass.swift in Sources */,
+				CDF0060D2208B0E400DC713F /* VenueEventTopHeaderRow.swift in Sources */,
+				CD30826221FFE0A300DF99BC /* EventVenueHeaderRow.swift in Sources */,
+				CD30823421FF390700DF99BC /* Venues+CoreDataProperties.swift in Sources */,
+				CD30825421FFD91700DF99BC /* VenueDetailInterfaceController.swift in Sources */,
+				CD3082762200A0D100DF99BC /* VenueMapInterfaceController.swift in Sources */,
+				CDF0060B2208AC1B00DC713F /* OtherEventTopHeaderRow.swift in Sources */,
+				CDFD37FB21F7F72800224D35 /* NotificationController.swift in Sources */,
+				CDF006092204A4F900DC713F /* CurrentEventRow.swift in Sources */,
+				CDFD37FD21F7F72800224D35 /* ComplicationController.swift in Sources */,
+				CD5A81A02200F3BA00943C52 /* SeriesListHeaderRow.swift in Sources */,
+				CD30824C21FFD6E100DF99BC /* VenuesHeaderRow.swift in Sources */,
+				CD30823E21FF565600DF99BC /* EventDetailTableRow.swift in Sources */,
+				CDFD37F921F7F72800224D35 /* ExtensionDelegate.swift in Sources */,
+				CD3082742200A09500DF99BC /* EventDetailMapRow.swift in Sources */,
+				CD30823821FF461A00DF99BC /* SeriesEventListInterfaceController.swift in Sources */,
+				CD30825E21FFDFF100DF99BC /* EventInfoHeaderRow.swift in Sources */,
+				CD30823C21FF54F800DF99BC /* EventDetailInterfaceController.swift in Sources */,
+				CD30827022009A8500DF99BC /* OtherEventExcludedRow.swift in Sources */,
+				CD30825A21FFDF7000DF99BC /* VenueEventHeaderRow.swift in Sources */,
+				CD30826021FFE06A00DF99BC /* EventInfoRow.swift in Sources */,
+				CD30826C21FFE4BF00DF99BC /* EventListInterfaceController.swift in Sources */,
+				CDFD37F721F7F72800224D35 /* InterfaceController.swift in Sources */,
+				CD30825621FFDED500DF99BC /* VenueInfoHeaderRow.swift in Sources */,
+				CD30826621FFE0FE00DF99BC /* OtherEventsHeaderRow.swift in Sources */,
+				CD30825021FFD76F00DF99BC /* EventsHeaderRow.swift in Sources */,
+				CD30825C21FFDFA800DF99BC /* VenueEventRow.swift in Sources */,
+				CD79C345220206E900D9C5D3 /* CoreDataBastard.swift in Sources */,
+				CD30826821FFE12700DF99BC /* OtherEventRow.swift in Sources */,
+				CD30826421FFE0D400DF99BC /* EventVenueInfoRow.swift in Sources */,
+				CD30825821FFDF2400DF99BC /* VenueInfoRow.swift in Sources */,
+				CD30823021FF200800DF99BC /* SeriesListInterfaceController.swift in Sources */,
+				CD30822E21FF1ED600DF99BC /* SeriesListTableViewRow.swift in Sources */,
+				CD30826E21FFEA5800DF99BC /* SeriesEventsRow.swift in Sources */,
+				CD30824A21FFBC3400DF99BC /* SeriesInfoRow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD88B6D921EBAF49003C188B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD88B6C021EBAF47003C188B /* GreenFlag */;
+			targetProxy = CD88B6D821EBAF49003C188B /* PBXContainerItemProxy */;
+		};
+		CD88B6E421EBAF49003C188B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD88B6C021EBAF47003C188B /* GreenFlag */;
+			targetProxy = CD88B6E321EBAF49003C188B /* PBXContainerItemProxy */;
+		};
+		CDFD37F421F7F72800224D35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDFD37F021F7F72800224D35 /* GreenFlagWatch Extension */;
+			targetProxy = CDFD37F321F7F72800224D35 /* PBXContainerItemProxy */;
+		};
+		CDFD380321F7F72900224D35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDFD37E421F7F72600224D35 /* GreenFlagWatch */;
+			targetProxy = CDFD380221F7F72900224D35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD88B6CA21EBAF47003C188B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD88B6CB21EBAF47003C188B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD88B6CF21EBAF48003C188B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD88B6D021EBAF48003C188B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CDFD37E721F7F72600224D35 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDFD37E821F7F72600224D35 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD88B6E921EBAF49003C188B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD88B6EA21EBAF49003C188B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD88B6EC21EBAF49003C188B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GreenFlag/GreenFlag.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6TQMK63ZQ4;
+				INFOPLIST_FILE = GreenFlag/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.honestinfo.GreenFlag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD88B6ED21EBAF49003C188B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GreenFlag/GreenFlag.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6TQMK63ZQ4;
+				INFOPLIST_FILE = GreenFlag/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.honestinfo.GreenFlag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD88B6EF21EBAF49003C188B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6TQMK63ZQ4;
+				INFOPLIST_FILE = GreenFlagTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.honestinfo.GreenFlagTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GreenFlag.app/GreenFlag";
+			};
+			name = Debug;
+		};
+		CD88B6F021EBAF49003C188B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6TQMK63ZQ4;
+				INFOPLIST_FILE = GreenFlagTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.honestinfo.GreenFlagTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GreenFlag.app/GreenFlag";
+			};
+			name = Release;
+		};
+		CD88B6F221EBAF49003C188B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6TQMK63ZQ4;
+				INFOPLIST_FILE = GreenFlagUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.honestinfo.GreenFlagUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GreenFlag;
+			};
+			name = Debug;
+		};
+		CD88B6F321EBAF49003C188B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6TQMK63ZQ4;
+				INFOPLIST_FILE = GreenFlagUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.honestinfo.GreenFlagUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GreenFlag;
+			};
+			name = Release;
+		};
+		CDFD380621F7F72900224D35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6TQMK63ZQ4;
+				INFOPLIST_FILE = "GreenFlagWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.honestinfo.GreenFlag.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		CDFD380721F7F72900224D35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6TQMK63ZQ4;
+				INFOPLIST_FILE = "GreenFlagWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.honestinfo.GreenFlag.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		CDFD380A21F7F72900224D35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6TQMK63ZQ4;
+				IBSC_MODULE = GreenFlagWatch_Extension;
+				INFOPLIST_FILE = GreenFlagWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.honestinfo.GreenFlag.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		CDFD380B21F7F72900224D35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6TQMK63ZQ4;
+				IBSC_MODULE = GreenFlagWatch_Extension;
+				INFOPLIST_FILE = GreenFlagWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.honestinfo.GreenFlag.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD88B6BC21EBAF47003C188B /* Build configuration list for PBXProject "GreenFlag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD88B6E921EBAF49003C188B /* Debug */,
+				CD88B6EA21EBAF49003C188B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD88B6EB21EBAF49003C188B /* Build configuration list for PBXNativeTarget "GreenFlag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD88B6EC21EBAF49003C188B /* Debug */,
+				CD88B6ED21EBAF49003C188B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD88B6EE21EBAF49003C188B /* Build configuration list for PBXNativeTarget "GreenFlagTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD88B6EF21EBAF49003C188B /* Debug */,
+				CD88B6F021EBAF49003C188B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD88B6F121EBAF49003C188B /* Build configuration list for PBXNativeTarget "GreenFlagUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD88B6F221EBAF49003C188B /* Debug */,
+				CD88B6F321EBAF49003C188B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDFD380521F7F72900224D35 /* Build configuration list for PBXNativeTarget "GreenFlagWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDFD380621F7F72900224D35 /* Debug */,
+				CDFD380721F7F72900224D35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDFD380921F7F72900224D35 /* Build configuration list for PBXNativeTarget "GreenFlagWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDFD380A21F7F72900224D35 /* Debug */,
+				CDFD380B21F7F72900224D35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CD88B74E21EBCCE3003C188B /* GreenFlag3.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CD88B74F21EBCCE3003C188B /* GreenFlag3.xcdatamodel */,
+			);
+			currentVersion = CD88B74F21EBCCE3003C188B /* GreenFlag3.xcdatamodel */;
+			path = GreenFlag3.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CD88B6B921EBAF47003C188B /* Project object */;
+}

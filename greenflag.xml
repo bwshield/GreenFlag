@@ -1,0 +1,2786 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<greenflag>
+    <venues>
+        <venue id="1">
+            <title>Albert Park</title>
+            <tag>AlbertPark</tag>
+            <deleted>0</deleted>
+            <shortTitle>Albert Park</shortTitle>
+            <timezone>Australia/Melbourne</timezone>
+            <continent>Australia</continent>
+            <venueAttributes>
+                <venueAttribute id="6">
+                    <venueAttributeID>6</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>-37.8501</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="61">
+                    <venueAttributeID>61</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>144.969</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="2">
+            <title>Atlanta Motor Speedway</title>
+            <tag>Atlanta</tag>
+            <deleted>0</deleted>
+            <shortTitle>Atlanta</shortTitle>
+            <timezone>America/New_York</timezone>
+            <continent>North America</continent>
+            <venueAttributes>
+                <venueAttribute id="7">
+                    <venueAttributeID>7</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>33.386</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="62">
+                    <venueAttributeID>62</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>-84.3163</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="3">
+            <title>Auto Club Speedway</title>
+            <tag>Fontana</tag>
+            <deleted>0</deleted>
+            <shortTitle>Fontana</shortTitle>
+            <timezone>America/Los_Angeles</timezone>
+            <continent>North America</continent>
+            <venueAttributes>
+                <venueAttribute id="114">
+                    <venueAttributeID>114</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>34.0888</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="115">
+                    <venueAttributeID>115</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>-117.5005</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="5">
+            <title>Autodromo Nazionale di Monza</title>
+            <tag>Monza</tag>
+            <deleted>0</deleted>
+            <shortTitle>Monza</shortTitle>
+            <timezone>Europe/Paris</timezone>
+            <continent>Europe</continent>
+            <venueAttributes>
+                <venueAttribute id="10">
+                    <venueAttributeID>10</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>45.6218</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="65">
+                    <venueAttributeID>65</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>9.2848</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="6">
+            <title>Bahrain International Circuit</title>
+            <tag>Bahrain</tag>
+            <deleted>0</deleted>
+            <shortTitle>Bahrain</shortTitle>
+            <timezone>Asia/Bahrain</timezone>
+            <continent>Asia</continent>
+            <venueAttributes>
+                <venueAttribute id="12">
+                    <venueAttributeID>12</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>26.0320</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="67">
+                    <venueAttributeID>67</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>50.513</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="7">
+            <title>Barber Motorsports Park</title>
+            <tag>Barber</tag>
+            <deleted>0</deleted>
+            <shortTitle>Barber</shortTitle>
+            <timezone>America/New_York</timezone>
+            <continent>North America</continent>
+            <venueAttributes>
+                <venueAttribute id="13">
+                    <venueAttributeID>13</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>33.5318</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="68">
+                    <venueAttributeID>68</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>-86.6189</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="8">
+            <title>Bristol Motor Speedway</title>
+            <tag>Bristol</tag>
+            <deleted>0</deleted>
+            <shortTitle>Bristol</shortTitle>
+            <timezone>America/New_York</timezone>
+            <continent>North America</continent>
+            <venueAttributes>
+                <venueAttribute id="16">
+                    <venueAttributeID>16</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>36.5157</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="71">
+                    <venueAttributeID>71</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>-82.257</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="9">
+            <title>Charlotte Motor Speedway</title>
+            <tag>Charlotte</tag>
+            <deleted>0</deleted>
+            <shortTitle>Charlotte</shortTitle>
+            <timezone>America/New_York</timezone>
+            <continent>North America</continent>
+            <venueAttributes>
+                <venueAttribute id="17">
+                    <venueAttributeID>17</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>35.3515</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="72">
+                    <venueAttributeID>72</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>-80.6866</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="10">
+            <title>Chicagoland Speedway</title>
+            <tag>Chicago</tag>
+            <deleted>0</deleted>
+            <shortTitle>Chicagoland</shortTitle>
+            <timezone>America/Chicago</timezone>
+            <continent>North America</continent>
+            <venueAttributes>
+                <venueAttribute id="18">
+                    <venueAttributeID>18</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>41.475</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="73">
+                    <venueAttributeID>73</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>-88.0573</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="12">
+            <title>Circuit de Monaco</title>
+            <tag>Monaco</tag>
+            <deleted>0</deleted>
+            <shortTitle>Monaco</shortTitle>
+            <timezone>Europe/Monaco</timezone>
+            <continent>Europe</continent>
+            <venueAttributes>
+                <venueAttribute id="19">
+                    <venueAttributeID>19</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>43.734361</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="74">
+                    <venueAttributeID>74</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>7.421556</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="13">
+            <title>Circuit of Spa Francorchamps</title>
+            <tag>Spa</tag>
+            <deleted>0</deleted>
+            <shortTitle>Spa</shortTitle>
+            <timezone>Europe/Paris</timezone>
+            <continent>Europe</continent>
+            <venueAttributes>
+                <venueAttribute id="20">
+                    <venueAttributeID>20</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>50.436306</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="75">
+                    <venueAttributeID>75</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>5.968833</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="14">
+            <title>Circuit of the Americas</title>
+            <tag>Austin</tag>
+            <deleted>0</deleted>
+            <shortTitle>Austin</shortTitle>
+            <timezone>America/Chicago</timezone>
+            <continent>North America</continent>
+            <venueAttributes>
+                <venueAttribute id="21">
+                    <venueAttributeID>21</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>30.1346</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="76">
+                    <venueAttributeID>76</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>-97.6359</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="15">
+            <title>Darlington Raceway</title>
+            <tag>Darlington</tag>
+            <deleted>0</deleted>
+            <shortTitle>Darlington</shortTitle>
+            <timezone>America/New_York</timezone>
+            <continent>North America</continent>
+            <venueAttributes>
+                <venueAttribute id="22">
+                    <venueAttributeID>22</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>34.2973</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="77">
+                    <venueAttributeID>77</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>-79.9052</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="16">
+            <title>Daytona International Speedway</title>
+            <tag>DaytonaOval</tag>
+            <deleted>0</deleted>
+            <shortTitle>Daytona</shortTitle>
+            <timezone>America/New_York</timezone>
+            <continent>North America</continent>
+            <venueAttributes>
+                <venueAttribute id="23">
+                    <venueAttributeID>23</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>29.1852</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="78">
+                    <venueAttributeID>78</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>-81.0705</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="17">
+            <title>Dover International Speedway</title>
+            <tag>Dover</tag>
+            <deleted>0</deleted>
+            <shortTitle>Dover</shortTitle>
+            <timezone>America/New_York</timezone>
+            <continent>North America</continent>
+            <venueAttributes>
+                <venueAttribute id="24">
+                    <venueAttributeID>24</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>39.1899</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="79">
+                    <venueAttributeID>79</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>-75.5307</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="19">
+            <title>Gilles Villeneuve Circuit</title>
+            <tag>Villeneuve</tag>
+            <deleted>0</deleted>
+            <shortTitle>Villeneuve</shortTitle>
+            <timezone>America/Montreal</timezone>
+            <continent>North America</continent>
+            <venueAttributes>
+                <venueAttribute id="25">
+                    <venueAttributeID>25</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>45.5032</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="80">
+                    <venueAttributeID>80</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>-73.5267</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="20">
+            <title>Homestead-Miami Speedway</title>
+            <tag>Homestead</tag>
+            <deleted>0</deleted>
+            <shortTitle>Homestead</shortTitle>
+            <timezone>America/New_York</timezone>
+            <continent>North America</continent>
+            <venueAttributes>
+                <venueAttribute id="27">
+                    <venueAttributeID>27</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>25.4518</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="82">
+                    <venueAttributeID>82</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>-80.4089</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="22">
+            <title>Hungaroring</title>
+            <tag>Hungary</tag>
+            <deleted>0</deleted>
+            <shortTitle>Hungary</shortTitle>
+            <timezone>Europe/Budapest</timezone>
+            <continent>Europe</continent>
+            <venueAttributes>
+                <venueAttribute id="28">
+                    <venueAttributeID>28</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>47.582222</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="83">
+                    <venueAttributeID>83</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>19.25111</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="23">
+            <title>Indianapolis Motor Speedway</title>
+            <tag>IMSOval</tag>
+            <deleted>0</deleted>
+            <shortTitle>Indy</shortTitle>
+            <timezone>America/Indiana/Indianapolis</timezone>
+            <continent>North America</continent>
+            <venueAttributes>
+                <venueAttribute id="29">
+                    <venueAttributeID>29</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>39.7954</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="84">
+                    <venueAttributeID>84</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>-86.2353</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="24">
+            <title>Iowa Speedway</title>
+            <tag>Iowa</tag>
+            <deleted>0</deleted>
+            <shortTitle>Iowa</shortTitle>
+            <timezone>America/Chicago</timezone>
+            <continent>North America</continent>
+            <venueAttributes>
+                <venueAttribute id="30">
+                    <venueAttributeID>30</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>41.6747</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="85">
+                    <venueAttributeID>85</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>-93.013</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="26">
+            <title>Kansas Speedway</title>
+            <tag>Kansas</tag>
+            <deleted>0</deleted>
+            <shortTitle>Kansas</shortTitle>
+            <timezone>America/Chicago</timezone>
+            <continent>North America</continent>
+            <venueAttributes>
+                <venueAttribute id="31">
+                    <venueAttributeID>31</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>39.1155</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="86">
+                    <venueAttributeID>86</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>-94.8307</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="27">
+            <title>Kentucky Speedway</title>
+            <tag>Kentucky</tag>
+            <deleted>0</deleted>
+            <shortTitle>Kentucky</shortTitle>
+            <timezone>America/New_York</timezone>
+            <continent>North America</continent>
+            <venueAttributes>
+                <venueAttribute id="32">
+                    <venueAttributeID>32</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>38.7096</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="87">
+                    <venueAttributeID>87</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>-84.91624</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="29">
+            <title>Las Vegas Motor Speedway</title>
+            <tag>LasVegas</tag>
+            <deleted>0</deleted>
+            <shortTitle>Las Vegas</shortTitle>
+            <timezone>America/Los_Angeles</timezone>
+            <continent>North America</continent>
+            <venueAttributes>
+                <venueAttribute id="33">
+                    <venueAttributeID>33</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>36.2723</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="88">
+                    <venueAttributeID>88</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>-115.0103</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="30">
+            <title>Martinsville Speedway</title>
+            <tag>Martinsville</tag>
+            <deleted>0</deleted>
+            <shortTitle>Martinsville</shortTitle>
+            <timezone>America/New_York</timezone>
+            <continent>North America</continent>
+            <venueAttributes>
+                <venueAttribute id="34">
+                    <venueAttributeID>34</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>36.6341</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="89">
+                    <venueAttributeID>89</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>-79.8517</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="31">
+            <title>Michigan International Speedway</title>
+            <tag>Michigan</tag>
+            <deleted>0</deleted>
+            <shortTitle>Michigan</shortTitle>
+            <timezone>America/New_York</timezone>
+            <continent>North America</continent>
+            <venueAttributes>
+                <venueAttribute id="36">
+                    <venueAttributeID>36</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>42.0679</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="91">
+                    <venueAttributeID>91</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>-84.2449</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="32">
+            <title>Mid-Ohio Sports Car Course</title>
+            <tag>MidOhio</tag>
+            <deleted>0</deleted>
+            <shortTitle>Mid-Ohio</shortTitle>
+            <timezone>America/New_York</timezone>
+            <continent>North America</continent>
+            <venueAttributes>
+                <venueAttribute id="37">
+                    <venueAttributeID>37</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>40.6907</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="92">
+                    <venueAttributeID>92</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>-82.6376</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="33">
+            <title>New Hampshire Motor Speedway</title>
+            <tag>NewHampshire</tag>
+            <deleted>0</deleted>
+            <shortTitle>New Hampshire</shortTitle>
+            <timezone>America/New_York</timezone>
+            <continent>North America</continent>
+            <venueAttributes>
+                <venueAttribute id="38">
+                    <venueAttributeID>38</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>43.3627</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="93">
+                    <venueAttributeID>93</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>-71.4606</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="35">
+            <title>Phoenix International Raceway</title>
+            <tag>Phoenix</tag>
+            <deleted>0</deleted>
+            <shortTitle>Phoenix</shortTitle>
+            <timezone>America/Denver</timezone>
+            <continent>North America</continent>
+            <venueAttributes>
+                <venueAttribute id="40">
+                    <venueAttributeID>40</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>33.375</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="95">
+                    <venueAttributeID>95</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>-112.3112</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="36">
+            <title>Pocono Raceway</title>
+            <tag>Pocono</tag>
+            <deleted>0</deleted>
+            <shortTitle>Pocono</shortTitle>
+            <timezone>America/New_York</timezone>
+            <continent>North America</continent>
+            <venueAttributes>
+                <venueAttribute id="41">
+                    <venueAttributeID>41</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>41.0543</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="96">
+                    <venueAttributeID>96</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>-75.5113</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="37">
+            <title>Raceway at Belle Isle Park</title>
+            <tag>BelleIsle</tag>
+            <deleted>0</deleted>
+            <shortTitle>Belle Isle</shortTitle>
+            <timezone>America/New_York</timezone>
+            <continent>North America</continent>
+            <venueAttributes>
+                <venueAttribute id="43">
+                    <venueAttributeID>43</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>42.3433</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="98">
+                    <venueAttributeID>98</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>-82.9743</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="38">
+            <title>Richmond International Raceway</title>
+            <tag>Richmond</tag>
+            <deleted>0</deleted>
+            <shortTitle>Richmond</shortTitle>
+            <timezone>America/New_York</timezone>
+            <continent>North America</continent>
+            <venueAttributes>
+                <venueAttribute id="44">
+                    <venueAttributeID>44</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>37.5924</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="99">
+                    <venueAttributeID>99</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>-77.4195</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="39">
+            <title>Road America</title>
+            <tag>RoadAmerica</tag>
+            <deleted>0</deleted>
+            <shortTitle>Road America</shortTitle>
+            <timezone>America/Chicago</timezone>
+            <continent>North America</continent>
+            <venueAttributes>
+                <venueAttribute id="45">
+                    <venueAttributeID>45</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>43.8045</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="100">
+                    <venueAttributeID>100</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>-87.9868</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="42">
+            <title>Shanghai International Circuit</title>
+            <tag>Shanghai</tag>
+            <deleted>0</deleted>
+            <shortTitle>Shanghai</shortTitle>
+            <timezone>Asia/Shanghai</timezone>
+            <continent>Asia</continent>
+            <venueAttributes>
+                <venueAttribute id="47">
+                    <venueAttributeID>47</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>31.3395</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="102">
+                    <venueAttributeID>102</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>121.2216</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="43">
+            <title>Silverstone Circuit</title>
+            <tag>Silverstone</tag>
+            <deleted>0</deleted>
+            <shortTitle>Silverstone</shortTitle>
+            <timezone>Europe/London</timezone>
+            <continent>Europe</continent>
+            <venueAttributes>
+                <venueAttribute id="48">
+                    <venueAttributeID>48</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>52.0733</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="103">
+                    <venueAttributeID>103</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>-1.0147</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="44">
+            <title>Singapore Street Circuit</title>
+            <tag>Singapore</tag>
+            <deleted>0</deleted>
+            <shortTitle>Singapore</shortTitle>
+            <timezone>Asia/Singapore</timezone>
+            <continent>Asia</continent>
+            <venueAttributes>
+                <venueAttribute id="49">
+                    <venueAttributeID>49</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>1.2914</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="104">
+                    <venueAttributeID>104</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>103.8639</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="45">
+            <title>Sonoma</title>
+            <tag>Sonoma</tag>
+            <deleted>0</deleted>
+            <shortTitle>Sonoma</shortTitle>
+            <timezone>America/Los_Angeles</timezone>
+            <continent>North America</continent>
+            <venueAttributes>
+                <venueAttribute id="50">
+                    <venueAttributeID>50</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>38.1609</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="105">
+                    <venueAttributeID>105</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>-122.4547</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="47">
+            <title>Streets of Long Beach</title>
+            <tag>LongBeach</tag>
+            <deleted>0</deleted>
+            <shortTitle>Long Beach</shortTitle>
+            <timezone>America/Los_Angeles</timezone>
+            <continent>North America</continent>
+            <venueAttributes>
+                <venueAttribute id="51">
+                    <venueAttributeID>51</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>33.7634</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="106">
+                    <venueAttributeID>106</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>-118.1853</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="49">
+            <title>Streets of St Petersburg</title>
+            <tag>StPete</tag>
+            <deleted>0</deleted>
+            <shortTitle>St Pete</shortTitle>
+            <timezone>America/New_York</timezone>
+            <continent>North America</continent>
+            <venueAttributes>
+                <venueAttribute id="52">
+                    <venueAttributeID>52</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>27.7708</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="107">
+                    <venueAttributeID>107</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>-82.6336</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="50">
+            <title>Streets of Toronto</title>
+            <tag>Toronto</tag>
+            <deleted>0</deleted>
+            <shortTitle>Toronto</shortTitle>
+            <timezone>America/New_York</timezone>
+            <continent>North America</continent>
+            <venueAttributes>
+                <venueAttribute id="53">
+                    <venueAttributeID>53</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>43.637222</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="108">
+                    <venueAttributeID>108</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>-79.415556</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="51">
+            <title>Suzuka International Racing Course</title>
+            <tag>Suzuka</tag>
+            <deleted>0</deleted>
+            <shortTitle>Suzuka</shortTitle>
+            <timezone>Asia/Tokyo</timezone>
+            <continent>Asia</continent>
+            <venueAttributes>
+                <venueAttribute id="54">
+                    <venueAttributeID>54</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>34.8456</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="109">
+                    <venueAttributeID>109</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>136.539</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="52">
+            <title>Talladega Superspeedway</title>
+            <tag>Talladega</tag>
+            <deleted>0</deleted>
+            <shortTitle>Talladega</shortTitle>
+            <timezone>America/Chicago</timezone>
+            <continent>North America</continent>
+            <venueAttributes>
+                <venueAttribute id="55">
+                    <venueAttributeID>55</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>33.567</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="110">
+                    <venueAttributeID>110</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>-86.0661</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="53">
+            <title>Texas Motor Speedway</title>
+            <tag>Texas</tag>
+            <deleted>0</deleted>
+            <shortTitle>Texas</shortTitle>
+            <timezone>America/Chicago</timezone>
+            <continent>North America</continent>
+            <venueAttributes>
+                <venueAttribute id="56">
+                    <venueAttributeID>56</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>33.0373</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="111">
+                    <venueAttributeID>111</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>-97.2821</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="56">
+            <title>Watkins Glen International</title>
+            <tag>Glen</tag>
+            <deleted>0</deleted>
+            <shortTitle>The Glen</shortTitle>
+            <timezone>America/New_York</timezone>
+            <continent>North America</continent>
+            <venueAttributes>
+                <venueAttribute id="58">
+                    <venueAttributeID>58</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>42.3383</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="113">
+                    <venueAttributeID>113</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>-76.9264</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="57">
+            <title>AbuDhabi</title>
+            <tag>YasMarina</tag>
+            <deleted>0</deleted>
+            <shortTitle>Abu Dhabi</shortTitle>
+            <timezone>Asia/Dubai</timezone>
+            <continent>Asia</continent>
+            <venueAttributes>
+                <venueAttribute id="5">
+                    <venueAttributeID>5</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>24.4670</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="60">
+                    <venueAttributeID>60</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>54.6018</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="65">
+            <title>Laguna Seca</title>
+            <tag>LagunaSeca</tag>
+            <deleted>0</deleted>
+            <shortTitle>Laguna Seca</shortTitle>
+            <timezone>America/Los_Angeles</timezone>
+            <continent>North America</continent>
+            <venueAttributes>
+                <venueAttribute id="9">
+                    <venueAttributeID>9</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>36.5843</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="64">
+                    <venueAttributeID>64</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>-121.7535</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="82">
+            <title>Gateway Motorsports Park</title>
+            <tag>StLouis</tag>
+            <deleted>0</deleted>
+            <shortTitle>Gateway</shortTitle>
+            <timezone>America/Chicago</timezone>
+            <continent>North America</continent>
+            <venueAttributes>
+                <venueAttribute id="57">
+                    <venueAttributeID>57</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>38.6508</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="112">
+                    <venueAttributeID>112</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>-90.1354</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="97">
+            <title>Austria</title>
+            <tag>Austria</tag>
+            <deleted>0</deleted>
+            <shortTitle>Austria</shortTitle>
+            <timezone>Europe/Vienna</timezone>
+            <continent>Europe</continent>
+            <venueAttributes>
+                <venueAttribute id="8">
+                    <venueAttributeID>8</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>47.2197</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="63">
+                    <venueAttributeID>63</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>14.764722</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="98">
+            <title>Russia</title>
+            <tag>Russia</tag>
+            <deleted>0</deleted>
+            <shortTitle>Russia</shortTitle>
+            <timezone>Europe/Moscow</timezone>
+            <continent>Europe</continent>
+            <venueAttributes>
+                <venueAttribute id="46">
+                    <venueAttributeID>46</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>43.41</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="101">
+                    <venueAttributeID>101</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>39.969</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="99">
+            <title>Mexico</title>
+            <tag>Mexico</tag>
+            <deleted>0</deleted>
+            <shortTitle>Mexico</shortTitle>
+            <timezone>America/Mexico_City</timezone>
+            <continent>North America</continent>
+            <venueAttributes>
+                <venueAttribute id="35">
+                    <venueAttributeID>35</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>19.406111</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="90">
+                    <venueAttributeID>90</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>-99.0925</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="100">
+            <title>Paul Ricard - France</title>
+            <tag>France</tag>
+            <deleted>0</deleted>
+            <shortTitle>France</shortTitle>
+            <timezone>Europe/Paris</timezone>
+            <continent>Europe</continent>
+            <venueAttributes>
+                <venueAttribute id="39">
+                    <venueAttributeID>39</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>43.2516</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="94">
+                    <venueAttributeID>94</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>5.7924</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="101">
+            <title>Azorbaijan</title>
+            <tag>Azorbaijan</tag>
+            <deleted>0</deleted>
+            <shortTitle>Azorbaijan</shortTitle>
+            <timezone>Europe/Paris</timezone>
+            <continent>Europe</continent>
+            <venueAttributes>
+                <venueAttribute id="11">
+                    <venueAttributeID>11</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>40.3725</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="66">
+                    <venueAttributeID>66</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>49.853333</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="102">
+            <title>Hockenheim</title>
+            <tag>Hockenheim</tag>
+            <deleted>0</deleted>
+            <shortTitle>Hockenheim</shortTitle>
+            <timezone>Europe/Paris</timezone>
+            <continent>Europe</continent>
+            <venueAttributes>
+                <venueAttribute id="26">
+                    <venueAttributeID>26</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>49.3233</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="81">
+                    <venueAttributeID>81</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>8.5595</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="103">
+            <title>Brazil - Interlagos</title>
+            <tag>Interlagos</tag>
+            <deleted>0</deleted>
+            <shortTitle>Brazil</shortTitle>
+            <timezone>America/Sao_Paulo</timezone>
+            <continent>South America</continent>
+            <venueAttributes>
+                <venueAttribute id="15">
+                    <venueAttributeID>15</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>-23.701111</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="70">
+                    <venueAttributeID>70</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>-46.697222</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="105">
+            <title>Portland</title>
+            <tag>Portland</tag>
+            <deleted>0</deleted>
+            <shortTitle>Portland</shortTitle>
+            <timezone>America/Los_Angeles</timezone>
+            <continent>North America</continent>
+            <venueAttributes>
+                <venueAttribute id="42">
+                    <venueAttributeID>42</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>45.512794</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="97">
+                    <venueAttributeID>97</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>-122.679565</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+        <venue id="106">
+            <title>Barcelona</title>
+            <tag>Barcelona</tag>
+            <deleted>0</deleted>
+            <shortTitle>Baarcelona</shortTitle>
+            <timezone>Europe/Paris</timezone>
+            <continent>Europe</continent>
+            <venueAttributes>
+                <venueAttribute id="14">
+                    <venueAttributeID>14</venueAttributeID>
+                    <attribute>latitude</attribute>
+                    <value>41.57</value>
+                    <visible>1</visible>
+                </venueAttribute>
+                <venueAttribute id="69">
+                    <venueAttributeID>69</venueAttributeID>
+                    <attribute>longitude</attribute>
+                    <value>2.261111</value>
+                    <visible>1</visible>
+                </venueAttribute>
+            </venueAttributes>
+        </venue>
+    </venues>
+    <allseries>
+        <series id="11">
+            <title>NASCAR Cup</title>
+            <tag>NASCARCup2019</tag>
+            <seriesDate>2015-02-14</seriesDate>
+            <seriesEnd>2015-11-22</seriesEnd>
+            <deleted>0</deleted>
+            <shortTitle>NASCAR</shortTitle>
+            <section>NASCAR</section>
+            <sortorder>3</sortorder>
+            <events>   <event id="240">
+                <tag>NASCARCup2015-1</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-02-10</eventEnd>
+                <eventTime>15:00:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>The Clash</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>16</venueID>
+                <pushtitle>The Clash</pushtitle>
+                <seriesID>11</seriesID>
+                <parentTag>NASCARCup2015</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>The Clash</shortTitle>
+            </event>
+            <event id="241">
+                <tag>NASCARCup2015-2</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-02-14</eventEnd>
+                <eventTime>19:00:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Duels</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>16</venueID>
+                <pushtitle>Duels</pushtitle>
+                <seriesID>11</seriesID>
+                <parentTag>NASCARCup2015</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Duels</shortTitle>
+            </event>
+            <event id="242">
+                <tag>NASCARCup2015-3</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-02-17</eventEnd>
+                <eventTime>14:00:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Daytona 500</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>16</venueID>
+                <pushtitle>Daytona 500</pushtitle>
+                <seriesID>11</seriesID>
+                <parentTag>NASCARCup2015</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Daytona 500</shortTitle>
+            </event>
+            <event id="243">
+                <tag>NASCARCup2015-4</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-02-24</eventEnd>
+                <eventTime>14:00:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Atlanta</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>2</venueID>
+                <pushtitle>Atlanta</pushtitle>
+                <seriesID>11</seriesID>
+                <parentTag>NASCARCup2015</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Atlanta</shortTitle>
+            </event>
+            <event id="244">
+                <tag>NASCARCup2015-5</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-03-03</eventEnd>
+                <eventTime>15:30:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Las Vegas</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>29</venueID>
+                <pushtitle>Las Vegas</pushtitle>
+                <seriesID>11</seriesID>
+                <parentTag>NASCARCup2015</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Las Vegas</shortTitle>
+            </event>
+            <event id="245">
+                <tag>NASCARCup2015-6</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-03-10</eventEnd>
+                <eventTime>15:30:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Phoenix</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>35</venueID>
+                <pushtitle>Phoenix</pushtitle>
+                <seriesID>11</seriesID>
+                <parentTag>NASCARCup2015</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Phoenix</shortTitle>
+            </event>
+            <event id="246">
+                <tag>NASCARCup2015-7</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-03-17</eventEnd>
+                <eventTime>15:30:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Fontanta</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>3</venueID>
+                <pushtitle>Fontanta</pushtitle>
+                <seriesID>11</seriesID>
+                <parentTag>NASCARCup2015</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Fontanta</shortTitle>
+            </event>
+            <event id="247">
+                <tag>NASCARCup2015-8</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-03-24</eventEnd>
+                <eventTime>14:00:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Martinsville</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>30</venueID>
+                <pushtitle>Martinsville</pushtitle>
+                <seriesID>11</seriesID>
+                <parentTag>NASCARCup2015</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Martinsville</shortTitle>
+            </event>
+            <event id="248">
+                <tag>NASCARCup2015-9</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-03-31</eventEnd>
+                <eventTime>15:00:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Texas</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>53</venueID>
+                <pushtitle>Texas</pushtitle>
+                <seriesID>11</seriesID>
+                <parentTag>NASCARCup2015</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Texas</shortTitle>
+            </event>
+            <event id="249">
+                <tag>NASCARCup2015-10</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-04-07</eventEnd>
+                <eventTime>14:00:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Bristol</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>8</venueID>
+                <pushtitle>Bristol</pushtitle>
+                <seriesID>11</seriesID>
+                <parentTag>NASCARCup2015</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Bristol</shortTitle>
+            </event>
+            <event id="250">
+                <tag>NASCARCup2015-11</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-04-13</eventEnd>
+                <eventTime>19:30:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Richmond</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>38</venueID>
+                <pushtitle>Richmond</pushtitle>
+                <seriesID>11</seriesID>
+                <parentTag>NASCARCup2015</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Richmond</shortTitle>
+            </event>
+            <event id="251">
+                <tag>NASCARCup2015-12</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-04-28</eventEnd>
+                <eventTime>14:00:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Talladega</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>52</venueID>
+                <pushtitle>Talladega</pushtitle>
+                <seriesID>11</seriesID>
+                <parentTag>NASCARCup2015</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Talladega</shortTitle>
+            </event>
+            <event id="252">
+                <tag>NASCARCup2015-13</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-05-11</eventEnd>
+                <eventTime>19:30:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Kansas</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>26</venueID>
+                <pushtitle>Kansas</pushtitle>
+                <seriesID>11</seriesID>
+                <parentTag>NASCARCup2015</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Kansas</shortTitle>
+            </event>
+            <event id="253">
+                <tag>NASCARCup2015-14</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-05-18</eventEnd>
+                <eventTime>18:00:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Monster Open</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>9</venueID>
+                <pushtitle>Showdown</pushtitle>
+                <seriesID>11</seriesID>
+                <parentTag>NASCARCup2015</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Showdown</shortTitle>
+            </event>
+            <event id="254">
+                <tag>NASCARCup2015-15</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-05-18</eventEnd>
+                <eventTime>20:00:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>All-Star</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>9</venueID>
+                <pushtitle>All-Star</pushtitle>
+                <seriesID>11</seriesID>
+                <parentTag>NASCARCup2015</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>All-Star</shortTitle>
+            </event>
+            <event id="255">
+                <tag>NASCARCup2015-16</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-05-26</eventEnd>
+                <eventTime>18:00:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Charlotte 600</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>9</venueID>
+                <pushtitle>Charlotte 600</pushtitle>
+                <seriesID>11</seriesID>
+                <parentTag>NASCARCup2015</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Charlotte 600</shortTitle>
+            </event>
+            <event id="256">
+                <tag>NASCARCup2015-17</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-05-05</eventEnd>
+                <eventTime>14:00:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Dover</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>17</venueID>
+                <pushtitle>Dover</pushtitle>
+                <seriesID>11</seriesID>
+                <parentTag>NASCARCup2015</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Dover</shortTitle>
+            </event>
+            <event id="257">
+                <tag>NASCARCup2015-18</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-06-02</eventEnd>
+                <eventTime>14:00:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Pocono</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>36</venueID>
+                <pushtitle>Pocono</pushtitle>
+                <seriesID>11</seriesID>
+                <parentTag>NASCARCup2015</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Pocono</shortTitle>
+            </event>
+            <event id="258">
+                <tag>NASCARCup2015-19</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-06-09</eventEnd>
+                <eventTime>14:00:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Michigan</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>31</venueID>
+                <pushtitle>Michigan</pushtitle>
+                <seriesID>11</seriesID>
+                <parentTag>NASCARCup2015</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Michigan</shortTitle>
+            </event>
+            <event id="259">
+                <tag>NASCARCup2015-20</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-06-23</eventEnd>
+                <eventTime>15:00:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Sonoma</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>45</venueID>
+                <pushtitle>Sonoma</pushtitle>
+                <seriesID>11</seriesID>
+                <parentTag>NASCARCup2015</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Sonoma</shortTitle>
+            </event>
+            <event id="260">
+                <tag>NASCARCup2015-21</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-07-06</eventEnd>
+                <eventTime>19:30:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Daytona 400</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>16</venueID>
+                <pushtitle>Daytona 400</pushtitle>
+                <seriesID>11</seriesID>
+                <parentTag>NASCARCup2015</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Daytona 400</shortTitle>
+            </event>
+            <event id="261">
+                <tag>NASCARCup2015-22</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-07-13</eventEnd>
+                <eventTime>19:30:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Kentucky</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>27</venueID>
+                <pushtitle>Kentucky</pushtitle>
+                <seriesID>11</seriesID>
+                <parentTag>NASCARCup2015</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Kentucky</shortTitle>
+            </event>
+            <event id="262">
+                <tag>NASCARCup2015-23</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-07-21</eventEnd>
+                <eventTime>15:30:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>New Hampshire</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>33</venueID>
+                <pushtitle>New Hampshire</pushtitle>
+                <seriesID>11</seriesID>
+                <parentTag>NASCARCup2015</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>New Hampshire</shortTitle>
+            </event>
+            <event id="263">
+                <tag>NASCARCup2015-25</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-07-28</eventEnd>
+                <eventTime>15:00:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Penn 400</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>36</venueID>
+                <pushtitle>Penn 400</pushtitle>
+                <seriesID>11</seriesID>
+                <parentTag>NASCARCup2015</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Penn 400</shortTitle>
+            </event>
+            <event id="264">
+                <tag>NASCARCup2015-26</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-08-04</eventEnd>
+                <eventTime>15:00:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Watkins Glen</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>56</venueID>
+                <pushtitle>Watkins Glen</pushtitle>
+                <seriesID>11</seriesID>
+                <parentTag>NASCARCup2015</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Watkins Glen</shortTitle>
+            </event>
+            <event id="265">
+                <tag>NASCARCup2015-27</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-08-11</eventEnd>
+                <eventTime>15:00:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Pure Michigan 400</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>31</venueID>
+                <pushtitle>Pure Michigan 400</pushtitle>
+                <seriesID>11</seriesID>
+                <parentTag>NASCARCup2015</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Pure Michigan 400</shortTitle>
+            </event>
+            <event id="266">
+                <tag>NASCARCup2015-28</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-08-17</eventEnd>
+                <eventTime>19:30:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Bristol</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>8</venueID>
+                <pushtitle>Bristol</pushtitle>
+                <seriesID>11</seriesID>
+                <parentTag>NASCARCup2015</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Bristol</shortTitle>
+            </event>
+            <event id="267">
+                <tag>NASCARCup2015-29</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-09-01</eventEnd>
+                <eventTime>18:00:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Darlington</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>15</venueID>
+                <pushtitle>Darlington</pushtitle>
+                <seriesID>11</seriesID>
+                <parentTag>NASCARCup2015</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Darlington</shortTitle>
+            </event>
+            <event id="268">
+                <tag>NASCARCup2015-30</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-09-21</eventEnd>
+                <eventTime>19:30:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Richmond</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>38</venueID>
+                <pushtitle>Richmond</pushtitle>
+                <seriesID>11</seriesID>
+                <parentTag>NASCARCup2015</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Richmond</shortTitle>
+            </event>
+            <event id="269">
+                <tag>NASCARCup2015-31</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-06-30</eventEnd>
+                <eventTime>15:00:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Chicagoland</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>10</venueID>
+                <pushtitle>Chicagoland</pushtitle>
+                <seriesID>11</seriesID>
+                <parentTag>NASCARCup2015</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Chicagoland</shortTitle>
+            </event>
+            <event id="270">
+                <tag>NASCARCup2015-32</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-06-21</eventEnd>
+                <eventTime>15:00:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>New Hampshire</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>33</venueID>
+                <pushtitle>New Hampshire</pushtitle>
+                <seriesID>11</seriesID>
+                <parentTag>NASCARCup2015</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>New Hampshire</shortTitle>
+            </event>
+            <event id="271">
+                <tag>NASCARCup2015-33</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-10-06</eventEnd>
+                <eventTime>14:30:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Dover</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>17</venueID>
+                <pushtitle>Dover</pushtitle>
+                <seriesID>11</seriesID>
+                <parentTag>NASCARCup2015</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Dover</shortTitle>
+            </event>
+            <event id="272">
+                <tag>NASCARCup2015-34</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-10-20</eventEnd>
+                <eventTime>14:30:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Kansas</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>26</venueID>
+                <pushtitle>Kansas</pushtitle>
+                <seriesID>11</seriesID>
+                <parentTag>NASCARCup2015</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Kansas</shortTitle>
+            </event>
+            <event id="273">
+                <tag>NASCARCup2015-35</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-10-13</eventEnd>
+                <eventTime>14:00:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Alabama 500</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>52</venueID>
+                <pushtitle>Alabama 500</pushtitle>
+                <seriesID>11</seriesID>
+                <parentTag>NASCARCup2015</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Alabama 500</shortTitle>
+            </event>
+            <event id="274">
+                <tag>NASCARCup2015-36</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-10-27</eventEnd>
+                <eventTime>15:00:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Headache 500</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>30</venueID>
+                <pushtitle>Headache 500</pushtitle>
+                <seriesID>11</seriesID>
+                <parentTag>NASCARCup2015</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Headache 500</shortTitle>
+            </event>
+            <event id="275">
+                <tag>NASCARCup2015-37</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-11-03</eventEnd>
+                <eventTime>15:00:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Texas</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>53</venueID>
+                <pushtitle>Texas</pushtitle>
+                <seriesID>11</seriesID>
+                <parentTag>NASCARCup2015</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Texas</shortTitle>
+            </event>
+            <event id="276">
+                <tag>NASCARCup2015-39</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-11-17</eventEnd>
+                <eventTime>15:00:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Homestead</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>20</venueID>
+                <pushtitle>Homestead</pushtitle>
+                <seriesID>11</seriesID>
+                <parentTag>NASCARCup2015</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Homestead</shortTitle>
+            </event>
+            <event id="278">
+                <tag>NASCARCup2015-40</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-09-08</eventEnd>
+                <eventTime>14:00:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Brickyard</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>23</venueID>
+                <pushtitle>Brickyard</pushtitle>
+                <seriesID>11</seriesID>
+                <parentTag>NASCARCup2015</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Brickyard</shortTitle>
+            </event>
+            <event id="301">
+                <tag>NASCARCup2015-5</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-09-15</eventEnd>
+                <eventTime>19:00:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Las Vegas</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>29</venueID>
+                <pushtitle>Las Vegas</pushtitle>
+                <seriesID>11</seriesID>
+                <parentTag>NASCARCup2015</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Las Vegas</shortTitle>
+            </event>
+            <event id="302">
+                <tag>NASCARCup2015-5</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-09-29</eventEnd>
+                <eventTime>14:30:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Charlotte</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>9</venueID>
+                <pushtitle>Charlotte</pushtitle>
+                <seriesID>11</seriesID>
+                <parentTag>NASCARCup2015</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Charlotte</shortTitle>
+            </event>
+            <event id="303">
+                <tag>NASCARCup2015-5</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-11-10</eventEnd>
+                <eventTime>14:30:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Pheonix</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>35</venueID>
+                <pushtitle>Pheonix</pushtitle>
+                <seriesID>11</seriesID>
+                <parentTag>NASCARCup2015</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Pheonix</shortTitle>
+            </event>
+            </events>   </series>
+        <series id="12">
+            <title>Formula 1</title>
+            <tag>Formula12019</tag>
+            <seriesDate>2019-03-17</seriesDate>
+            <seriesEnd>2019-12-01</seriesEnd>
+            <deleted>0</deleted>
+            <shortTitle>F1</shortTitle>
+            <section>FIA</section>
+            <sortorder>2</sortorder>
+            <events>   <event id="277">
+                <tag>Formula12019-1</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-03-17</eventEnd>
+                <eventTime>16:10:00</eventTime>
+                <timezone>Australia/Melbourne</timezone>
+                <title>Australia</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>1</venueID>
+                <pushtitle>Austraila</pushtitle>
+                <seriesID>12</seriesID>
+                <parentTag>Formula12019</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Austraila</shortTitle>
+            </event>
+            <event id="279">
+                <tag>Formula12019-3</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-04-14</eventEnd>
+                <eventTime>14:10:00</eventTime>
+                <timezone>Asia/Shanghai</timezone>
+                <title>China</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>42</venueID>
+                <pushtitle>China</pushtitle>
+                <seriesID>12</seriesID>
+                <parentTag>Formula12019</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>China</shortTitle>
+            </event>
+            <event id="280">
+                <tag>Formula12019-4</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-03-31</eventEnd>
+                <eventTime>18:10:00</eventTime>
+                <timezone>Asia/Bahrain</timezone>
+                <title>Bahrain</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>6</venueID>
+                <pushtitle>Bahrain</pushtitle>
+                <seriesID>12</seriesID>
+                <parentTag>Formula12019</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Bahrain</shortTitle>
+            </event>
+            <event id="281">
+                <tag>Formula12019-5</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-05-12</eventEnd>
+                <eventTime>15:10:00</eventTime>
+                <timezone>Europe/Madrid</timezone>
+                <title>Spain</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>106</venueID>
+                <pushtitle>Spain</pushtitle>
+                <seriesID>12</seriesID>
+                <parentTag>Formula12019</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Spain</shortTitle>
+            </event>
+            <event id="282">
+                <tag>Formula12019-6</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-05-26</eventEnd>
+                <eventTime>15:10:00</eventTime>
+                <timezone>Europe/Monaco</timezone>
+                <title>Monaco</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>12</venueID>
+                <pushtitle>Monaco</pushtitle>
+                <seriesID>12</seriesID>
+                <parentTag>Formula12019</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Monaco</shortTitle>
+            </event>
+            <event id="283">
+                <tag>Formula12019-7</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-06-09</eventEnd>
+                <eventTime>14:10:00</eventTime>
+                <timezone>America/Toronto</timezone>
+                <title>Canada</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>19</venueID>
+                <pushtitle>Canada</pushtitle>
+                <seriesID>12</seriesID>
+                <parentTag>Formula12019</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Canada</shortTitle>
+            </event>
+            <event id="284">
+                <tag>Formula12019-8</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-06-30</eventEnd>
+                <eventTime>15:10:00</eventTime>
+                <timezone>Europe/Vienna</timezone>
+                <title>Austria</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>97</venueID>
+                <pushtitle>Austria</pushtitle>
+                <seriesID>12</seriesID>
+                <parentTag>Formula12019</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Austria</shortTitle>
+            </event>
+            <event id="285">
+                <tag>Formula12019-9</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-07-14</eventEnd>
+                <eventTime>14:10:00</eventTime>
+                <timezone>Europe/London</timezone>
+                <title>Britian</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>43</venueID>
+                <pushtitle>Britian</pushtitle>
+                <seriesID>12</seriesID>
+                <parentTag>Formula12019</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Britian</shortTitle>
+            </event>
+            <event id="286">
+                <tag>Formula12019-10</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-07-28</eventEnd>
+                <eventTime>15:10:00</eventTime>
+                <timezone>Europe/Berlin</timezone>
+                <title>Germany</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>102</venueID>
+                <pushtitle>Germany</pushtitle>
+                <seriesID>12</seriesID>
+                <parentTag>Formula12019</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Germany</shortTitle>
+            </event>
+            <event id="287">
+                <tag>Formula12019-11</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-08-04</eventEnd>
+                <eventTime>15:10:00</eventTime>
+                <timezone>Europe/Budapest</timezone>
+                <title>Hungary</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>22</venueID>
+                <pushtitle>Hungary</pushtitle>
+                <seriesID>12</seriesID>
+                <parentTag>Formula12019</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Hungary</shortTitle>
+            </event>
+            <event id="288">
+                <tag>Formula12019-12</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-09-01</eventEnd>
+                <eventTime>15:10:00</eventTime>
+                <timezone>Europe/Brussels</timezone>
+                <title>Belgium</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>13</venueID>
+                <pushtitle>Belgium</pushtitle>
+                <seriesID>12</seriesID>
+                <parentTag>Formula12019</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Belgium</shortTitle>
+            </event>
+            <event id="289">
+                <tag>Formula12019-13</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-09-08</eventEnd>
+                <eventTime>15:10:00</eventTime>
+                <timezone>Europe/Rome</timezone>
+                <title>Italy</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>5</venueID>
+                <pushtitle>Italy</pushtitle>
+                <seriesID>12</seriesID>
+                <parentTag>Formula12019</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Italy</shortTitle>
+            </event>
+            <event id="290">
+                <tag>Formula12019-14</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-09-22</eventEnd>
+                <eventTime>20:10:00</eventTime>
+                <timezone>Asia/Singapore</timezone>
+                <title>Singapore</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>44</venueID>
+                <pushtitle>Singapore</pushtitle>
+                <seriesID>12</seriesID>
+                <parentTag>Formula12019</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Singapore</shortTitle>
+            </event>
+            <event id="291">
+                <tag>Formula12019-15</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-10-13</eventEnd>
+                <eventTime>14:10:00</eventTime>
+                <timezone>Asia/Tokyo</timezone>
+                <title>Japan</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>51</venueID>
+                <pushtitle>Japan</pushtitle>
+                <seriesID>12</seriesID>
+                <parentTag>Formula12019</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Japan</shortTitle>
+            </event>
+            <event id="292">
+                <tag>Formula12019-16</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-09-29</eventEnd>
+                <eventTime>14:10:00</eventTime>
+                <timezone>Europe/Moscow</timezone>
+                <title>Russia</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>98</venueID>
+                <pushtitle>Russia</pushtitle>
+                <seriesID>12</seriesID>
+                <parentTag>Formula12019</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Russia</shortTitle>
+            </event>
+            <event id="293">
+                <tag>Formula12019-17</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-11-03</eventEnd>
+                <eventTime>13:10:00</eventTime>
+                <timezone>America/Chicago</timezone>
+                <title>USA</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>14</venueID>
+                <pushtitle>USA</pushtitle>
+                <seriesID>12</seriesID>
+                <parentTag>Formula12019</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>USA</shortTitle>
+            </event>
+            <event id="294">
+                <tag>Formula12019-18</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-10-27</eventEnd>
+                <eventTime>13:10:00</eventTime>
+                <timezone>America/Mexico_City</timezone>
+                <title>Mexico</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>99</venueID>
+                <pushtitle>Mexico</pushtitle>
+                <seriesID>12</seriesID>
+                <parentTag>Formula12019</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Mexico</shortTitle>
+            </event>
+            <event id="295">
+                <tag>Formula12019-19</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-11-17</eventEnd>
+                <eventTime>15:10:00</eventTime>
+                <timezone>America/Sao_Paulo</timezone>
+                <title>Brazil</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>103</venueID>
+                <pushtitle>Brazil</pushtitle>
+                <seriesID>12</seriesID>
+                <parentTag>Formula12019</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Brazil</shortTitle>
+            </event>
+            <event id="296">
+                <tag>Formula12019-20</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-12-01</eventEnd>
+                <eventTime>17:10:00</eventTime>
+                <timezone>Asia/Dubai</timezone>
+                <title>Abu Dhabi</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>57</venueID>
+                <pushtitle>Abu Dhabi</pushtitle>
+                <seriesID>12</seriesID>
+                <parentTag>Formula12019</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Abu Dhabi</shortTitle>
+            </event>
+            <event id="298">
+                <tag>Formula12019-21</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-04-28</eventEnd>
+                <eventTime>16:10:00</eventTime>
+                <timezone>Asia/Baku</timezone>
+                <title>Azerbaijan</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>101</venueID>
+                <pushtitle>Azerbaijan</pushtitle>
+                <seriesID>12</seriesID>
+                <parentTag>Formula12019</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Azerbaijan</shortTitle>
+            </event>
+            <event id="299">
+                <tag>Formula12019-22</tag>
+                <eventID2>0</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-06-23</eventEnd>
+                <eventTime>15:10:00</eventTime>
+                <timezone>Europe/Paris</timezone>
+                <title>France</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>100</venueID>
+                <pushtitle>France</pushtitle>
+                <seriesID>12</seriesID>
+                <parentTag>Formula12019</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>France</shortTitle>
+            </event>
+            </events>   </series>
+        <series id="13">
+            <title>IndyCar</title>
+            <tag>IndyCar2019</tag>
+            <seriesDate>2019-03-10</seriesDate>
+            <seriesEnd>2019-09-22</seriesEnd>
+            <deleted>0</deleted>
+            <shortTitle>IndyCar</shortTitle>
+            <section>IRL</section>
+            <sortorder>1</sortorder>
+            <seriesAttributes>
+                <seriesAttribute id="1">
+                    <seriesAttributeID>1</seriesAttributeID>
+                    <attribute>Num of Events</attribute>
+                    <value>14</value>
+                    <visible>1</visible>
+                </seriesAttribute>
+            </seriesAttributes>
+            <events>   <event id="224">
+                <tag>1</tag>
+                <eventID2>2</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-03-10</eventEnd>
+                <eventTime>13:00:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Honda Grand Prix of St Petersburg</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>49</venueID>
+                <pushtitle>Honda Grand Prix of St Petersburg</pushtitle>
+                <seriesID>13</seriesID>
+                <parentTag>IndyCar2019</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>St Pete</shortTitle>
+            </event>
+            <event id="225">
+                <tag>2</tag>
+                <eventID2>5</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-04-07</eventEnd>
+                <eventTime>16:00:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Honda Indy Grand Prix of Alabama</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>7</venueID>
+                <pushtitle>Honda Indy Grand Prix of Alabama</pushtitle>
+                <seriesID>13</seriesID>
+                <parentTag>IndyCar2019</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Alabama</shortTitle>
+            </event>
+            <event id="226">
+                <tag>3</tag>
+                <eventID2>4</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-04-14</eventEnd>
+                <eventTime>16:00:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Toyota Grand Prix of Long Beach</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>47</venueID>
+                <pushtitle>Toyota Grand Prix of Long Beach</pushtitle>
+                <seriesID>13</seriesID>
+                <parentTag>IndyCar2019</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Long Beach</shortTitle>
+            </event>
+            <event id="227">
+                <tag>4</tag>
+                <eventID2>1</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-03-24</eventEnd>
+                <eventTime>13:00:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>IndyCar Classic</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>14</venueID>
+                <pushtitle>IndyCar Classic</pushtitle>
+                <seriesID>13</seriesID>
+                <parentTag>IndyCar2019</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Austin</shortTitle>
+            </event>
+            <event id="228">
+                <tag>5</tag>
+                <eventID2>9</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-05-26</eventEnd>
+                <eventTime>11:00:00</eventTime>
+                <timezone>America/Indiana/Indianapolis</timezone>
+                <title>The Indianapolis 500</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>23</venueID>
+                <pushtitle>The Indianapolis 500</pushtitle>
+                <seriesID>13</seriesID>
+                <parentTag>IndyCar2019</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Indy 500</shortTitle>
+                <eventAttributes>
+                    <eventAttribute id="1">
+                        <eventAttributeID>1</eventAttributeID>
+                        <attribute>length</attribute>
+                        <value>500 miles</value>
+                        <visible>1</visible>
+                    </eventAttribute>
+                </eventAttributes>
+            </event>
+            <event id="229">
+                <tag>DetroitDuel2015</tag>
+                <eventID2>10</eventID2>
+                <eventStart>2019-06-01</eventStart>
+                <eventEnd>2019-06-02</eventEnd>
+                <eventTime>00:00:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Chevrolet Duel In Detroit</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>37</venueID>
+                <pushtitle>Chevrolet Duel In Detroit</pushtitle>
+                <seriesID>13</seriesID>
+                <parentTag>IndyCar2019</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Belle Isle</shortTitle>
+            </event>
+            <venue id="37">
+                <title>Raceway at Belle Isle Park</title>
+                <tag>BelleIsle</tag>
+                <deleted>0</deleted>
+                <shortTitle>Belle Isle</shortTitle>
+                <timezone>America/New_York</timezone>
+                <continent>North America</continent>
+                <venueAttributes>
+                    <venueAttribute id="43">
+                        <venueAttributeID>43</venueAttributeID>
+                        <attribute>latitude</attribute>
+                        <value>42.3433</value>
+                        <visible>1</visible>
+                    </venueAttribute>
+                    <venueAttribute id="98">
+                        <venueAttributeID>98</venueAttributeID>
+                        <attribute>longitude</attribute>
+                        <value>-82.9743</value>
+                        <visible>1</visible>
+                    </venueAttribute>
+                </venueAttributes>
+            </venue>
+            <event id="230">
+                <tag>Detroit1-2015</tag>
+                <eventID>230</eventID>
+                <eventID2>11</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-06-01</eventEnd>
+                <eventTime>15:00:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Chevrolet Duel Race 1</title>
+                <parentEventID>229</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>37</venueID>
+                <pushtitle>Chevrolet Duel Race 1</pushtitle>
+                <seriesID>13</seriesID>
+                <parentTag>IndyCar2019</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Belle Isle</shortTitle>
+            </event>
+            <venue id="37">
+                <title>Raceway at Belle Isle Park</title>
+                <tag>BelleIsle</tag>
+                <deleted>0</deleted>
+                <shortTitle>Belle Isle</shortTitle>
+                <timezone>America/New_York</timezone>
+                <continent>North America</continent>
+                <venueAttributes>
+                    <venueAttribute id="43">
+                        <venueAttributeID>43</venueAttributeID>
+                        <attribute>latitude</attribute>
+                        <value>42.3433</value>
+                        <visible>1</visible>
+                    </venueAttribute>
+                    <venueAttribute id="98">
+                        <venueAttributeID>98</venueAttributeID>
+                        <attribute>longitude</attribute>
+                        <value>-82.9743</value>
+                        <visible>1</visible>
+                    </venueAttribute>
+                </venueAttributes>
+            </venue>
+            <event id="231">
+                <tag>Detroit2-2015</tag>
+                <eventID>231</eventID>
+                <eventID2>12</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-06-02</eventEnd>
+                <eventTime>15:00:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Chevrolet Duel Race 2</title>
+                <parentEventID>229</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>37</venueID>
+                <pushtitle>Chevrolet Duel Race 2</pushtitle>
+                <seriesID>13</seriesID>
+                <parentTag>IndyCar2019</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Belle Isle</shortTitle>
+            </event>
+            <event id="230">
+                <tag>Detroit1-2015</tag>
+                <eventID2>11</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-06-01</eventEnd>
+                <eventTime>15:00:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Chevrolet Duel Race 1</title>
+                <parentEventID>229</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>37</venueID>
+                <pushtitle>Chevrolet Duel Race 1</pushtitle>
+                <seriesID>13</seriesID>
+                <parentTag>IndyCar2019</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Belle Isle</shortTitle>
+            </event>
+            <event id="231">
+                <tag>Detroit2-2015</tag>
+                <eventID2>12</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-06-02</eventEnd>
+                <eventTime>15:00:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Chevrolet Duel Race 2</title>
+                <parentEventID>229</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>37</venueID>
+                <pushtitle>Chevrolet Duel Race 2</pushtitle>
+                <seriesID>13</seriesID>
+                <parentTag>IndyCar2019</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Belle Isle</shortTitle>
+            </event>
+            <event id="232">
+                <tag>8</tag>
+                <eventID2>13</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-06-08</eventEnd>
+                <eventTime>20:00:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Texas</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>53</venueID>
+                <pushtitle>Texas</pushtitle>
+                <seriesID>13</seriesID>
+                <parentTag>IndyCar2019</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Texas</shortTitle>
+            </event>
+            <event id="233">
+                <tag>9</tag>
+                <eventID2>16</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-08-24</eventEnd>
+                <eventTime>20:00:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Gateway</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>82</venueID>
+                <pushtitle>Gateway</pushtitle>
+                <seriesID>13</seriesID>
+                <parentTag>IndyCar2019</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Gateway</shortTitle>
+            </event>
+            <event id="234">
+                <tag>10</tag>
+                <eventID2>17</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-07-20</eventEnd>
+                <eventTime>19:00:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Iowa Corn Indy 250</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>24</venueID>
+                <pushtitle>Iowa Corn Indy 250</pushtitle>
+                <seriesID>13</seriesID>
+                <parentTag>IndyCar2019</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Iowa</shortTitle>
+            </event>
+            <event id="235">
+                <tag>11</tag>
+                <eventID2>19</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-08-18</eventEnd>
+                <eventTime>14:00:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Pocono IndyCar 400</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>36</venueID>
+                <pushtitle>Pocono IndyCar 400</pushtitle>
+                <seriesID>13</seriesID>
+                <parentTag>IndyCar2019</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Pocono</shortTitle>
+            </event>
+            <event id="236">
+                <tag>Toronto</tag>
+                <eventID2>14</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-07-14</eventEnd>
+                <eventTime>15:00:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Honda Indy Toronto</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>50</venueID>
+                <pushtitle>Honda Indy Toronto</pushtitle>
+                <seriesID>13</seriesID>
+                <parentTag>IndyCar2019</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Toronto</shortTitle>
+            </event>
+            <event id="237">
+                <tag>14</tag>
+                <eventID2>18</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-07-28</eventEnd>
+                <eventTime>15:00:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Mid-Ohio</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>32</venueID>
+                <pushtitle>Mid-Ohio</pushtitle>
+                <seriesID>13</seriesID>
+                <parentTag>IndyCar2019</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Mid-Ohio</shortTitle>
+            </event>
+            <event id="238">
+                <tag>15</tag>
+                <eventID2>20</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-09-01</eventEnd>
+                <eventTime>15:00:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Portland</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>105</venueID>
+                <pushtitle>Portland</pushtitle>
+                <seriesID>13</seriesID>
+                <parentTag>IndyCar2019</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Portand</shortTitle>
+            </event>
+            <event id="239">
+                <tag>19</tag>
+                <eventID2>15</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-09-22</eventEnd>
+                <eventTime>14:30:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Laguna Seca</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>65</venueID>
+                <pushtitle>Laguna Seca</pushtitle>
+                <seriesID>13</seriesID>
+                <parentTag>IndyCar2019</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Laguna Seca</shortTitle>
+            </event>
+            <event id="222">
+                <tag>3a</tag>
+                <eventID2>3</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-06-23</eventEnd>
+                <eventTime>12:00:00</eventTime>
+                <timezone>America/New_York</timezone>
+                <title>Road America</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>39</venueID>
+                <pushtitle>Road America</pushtitle>
+                <seriesID>13</seriesID>
+                <parentTag>IndyCar2019</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>Road America</shortTitle>
+            </event>
+            <event id="223">
+                <tag>5b</tag>
+                <eventID2>6</eventID2>
+                <eventStart>0000-00-00</eventStart>
+                <eventEnd>2019-05-11</eventEnd>
+                <eventTime>15:00:00</eventTime>
+                <timezone>America/Indiana/Indianapolis</timezone>
+                <title>GP of Indy</title>
+                <parentEventID>0</parentEventID>
+                <pushedDayBefore>1</pushedDayBefore>
+                <pushedHourBefore>1</pushedHourBefore>
+                <venueID>23</venueID>
+                <pushtitle>GP of Indy</pushtitle>
+                <seriesID>13</seriesID>
+                <parentTag>IndyCar2019</parentTag>
+                <deleted>0</deleted>
+                <shortTitle>GP Indo</shortTitle>
+            </event>
+            </events>   </series>
+    </allseries>
+    <fulldataversion>45</fulldataversion></greenflag>
+

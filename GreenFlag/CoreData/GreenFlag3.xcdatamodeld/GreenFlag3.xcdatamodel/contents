@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18C54" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="EventAttributes" representedClassName="EventAttributes" syncable="YES" codeGenerationType="class">
+        <attribute name="attribute" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventAttributeID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="visible" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="event" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Events" inverseName="attributes" inverseEntity="Events" syncable="YES"/>
+    </entity>
+    <entity name="Events" representedClassName="Events" syncable="YES">
+        <attribute name="endDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="eventID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventMonth" optional="YES" transient="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isdeleted" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="parentEventID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="seriesID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="seriesName" optional="YES" transient="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shorttitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="startDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="startTime" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="tag" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timezone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="venueID" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="attributes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="EventAttributes" inverseName="event" inverseEntity="EventAttributes" syncable="YES"/>
+        <relationship name="children" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Events" inverseName="parent" inverseEntity="Events" syncable="YES"/>
+        <relationship name="parent" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Events" inverseName="children" inverseEntity="Events" syncable="YES"/>
+        <relationship name="series" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Series" inverseName="events" inverseEntity="Series" syncable="YES"/>
+        <relationship name="venue" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Venues" inverseName="events" inverseEntity="Venues" syncable="YES"/>
+    </entity>
+    <entity name="Series" representedClassName="Series" syncable="YES" codeGenerationType="class">
+        <attribute name="endDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isdeleted" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="section" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="seriesID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shortTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sortorder" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="startDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="tag" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="attributes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="SeriesAttributes" inverseName="series" inverseEntity="SeriesAttributes" syncable="YES"/>
+        <relationship name="events" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Events" inverseName="series" inverseEntity="Events" syncable="YES"/>
+    </entity>
+    <entity name="SeriesAttributes" representedClassName="SeriesAttributes" syncable="YES" codeGenerationType="class">
+        <attribute name="attribute" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="seriesAttributeID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="visible" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="series" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Series" inverseName="attributes" inverseEntity="Series" syncable="YES"/>
+    </entity>
+    <entity name="UserAttributes" representedClassName="UserAttributes" syncable="YES" codeGenerationType="class">
+        <attribute name="attribute" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="attributeID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="VenueAttributes" representedClassName="VenueAttributes" syncable="YES" codeGenerationType="class">
+        <attribute name="attribute" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="venueAttributeID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="visible" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="venue" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Venues" inverseName="attributes" inverseEntity="Venues" syncable="YES"/>
+    </entity>
+    <entity name="Venues" representedClassName="Venues" syncable="YES">
+        <attribute name="alphasort" optional="YES" transient="YES" attributeType="String" syncable="YES"/>
+        <attribute name="continent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isdeleted" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="shorttitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tag" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timezone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="venueID" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="attributes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="VenueAttributes" inverseName="venue" inverseEntity="VenueAttributes" syncable="YES"/>
+        <relationship name="events" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Events" inverseName="venue" inverseEntity="Events" syncable="YES"/>
+    </entity>
+    <fetchRequest name="dataversion" entity="UserAttributes" predicateString="attribute == &quot;dataversion&quot;"/>
+    <elements>
+        <element name="EventAttributes" positionX="299.8359375" positionY="-190.29296875" width="128" height="118"/>
+        <element name="Events" positionX="60.26171875" positionY="-356.64453125" width="128" height="28"/>
+        <element name="Series" positionX="-194.1328125" positionY="-376.953125" width="128" height="208"/>
+        <element name="SeriesAttributes" positionX="-374.390625" positionY="-294.50390625" width="128" height="118"/>
+        <element name="UserAttributes" positionX="-18" positionY="27" width="128" height="90"/>
+        <element name="VenueAttributes" positionX="-439.8203125" positionY="-80.10546875" width="128" height="118"/>
+        <element name="Venues" positionX="-238.12109375" positionY="-139.3203125" width="128" height="193"/>
+    </elements>
+</model>
